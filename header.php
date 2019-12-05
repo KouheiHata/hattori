@@ -42,7 +42,17 @@ wp_deregister_script('jquery');
 <header class="header">
     <div class="container">
 	    <div class="row">
-
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <p class="header_p">〒915-0056</p>
+                <p class="header_p">越前市向新保町&nbsp;32-32</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <p class="header_p"><i class="icon fas fa-fax"></i> 0778-22-1987</p>
+                <p class="header_p"><i class="icon fas fa-mobile-alt"></i>  090-8265-1135</p>
+            </div>
         </div>
     </div>
 </header>

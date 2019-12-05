@@ -37,6 +37,7 @@
 /* -------------------------------------------------------------------------------- */
 html {
     overflow-x: hidden;
+    background-image: url(images/cloth_background.jpg);
 }
 
 html,
@@ -289,6 +290,10 @@ img {
     height: auto;
 }
 
+icon {
+    
+}
+
 ::selection {
     background: #333;
     color: #fff;
@@ -415,7 +420,26 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	5.	Header
 /* -------------------------------------------------------------------------------- */
+.header{
+    background-image: url(images/cloth_background.jpg);
+}
 
+.header_p {
+    padding-left: 10%;
+    color: #42210b;
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.header_p:first-child {
+    padding-top: 15px;
+}
+.header-logo {
+    width: 500px;
+    position: relative;
+    right: 10%;
+    bottom:20%;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	6.	Menu Navigation

@@ -170,7 +170,7 @@ function new_custom_post_type() {
 
 	// もともと設定されていたカスタム投稿タイプ「news」
 	register_post_type(
-		'works',
+		'news',
 		array(
 			'labels' => array(
 				'name' => '過去事例',
@@ -195,7 +195,7 @@ function new_custom_post_type() {
 				'thumbnail'
 			),
 			'rewrite' => true,
-			'taxonomies' => array('works')
+			'taxonomies' => array('news')
 		)
 	);
 
@@ -216,6 +216,6 @@ function new_custom_post_type() {
 		'hierarchical'        => true,
 		'labels'              => $labels,
 	);
-	register_taxonomy( 'works_cat', 'works', $args );
+	register_taxonomy( 'news_cat', 'news', $args );
 }
 add_action( 'init', 'new_custom_post_type');

@@ -240,11 +240,16 @@ summary {
 /* -------------------------------------------------------------------------------- */
 /*	1. Document
 /* -------------------------------------------------------------------------------- */
+@font-face {
+	font-family: "BokutachinoGothic";
+	src: url('./font/Boku2-Regular-min.woff')
+}
+
 
 body {
     background: #fff;
     color: #000;
-    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: BokutachinoGothic, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     ;
     font-size: 1em;
     font-weight: 400;

@@ -295,10 +295,6 @@ img {
     height: auto;
 }
 
-icon {
-    
-}
-
 ::selection {
     background: #333;
     color: #fff;
@@ -311,7 +307,6 @@ icon {
 :-ms-input-placeholder {
     color: #fff;
 }
-
 
 /* -------------------------------------------------------------------------------- */
 /*	2.	Font
@@ -434,11 +429,23 @@ icon {
     color: #42210b;
     font-size: 14pt;
     font-weight: bold;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 .header_p:first-child {
-    padding-top: 15px;
+    padding-top: 10px;
 }
+.fa-fax:after {
+    content: '';
+    padding: 3px;
+}
+.fa-mobile-alt{
+    padding-left: 5px;
+}
+.fa-mobile-alt:after {
+    content: '';
+    padding: 4px;
+}
+
 .header-logo {
     width: 500px;
     position: relative;
@@ -449,7 +456,38 @@ icon {
 /* -------------------------------------------------------------------------------- */
 /*	6.	Menu Navigation
 /* -------------------------------------------------------------------------------- */
+nav {
+    width: 100%;
+    padding: 10px 0;
+    background: url("images/border_yoko.png") repeat-x;
+    background-color: #fff;
+}
 
+.nav-ul {
+    text-align: center;
+}
+
+nav ul li {
+    margin: 4px 0 4px 0;
+    padding: 25px 0px 5px 15px;
+    display: inline-block;
+    font-size: 15pt;
+    color: #42210b;
+    background: url("images/border_tate.png") repeat-y;
+    background-position: left 20px;
+}
+
+nav ul li:last-child::after {
+    content: '';
+    margin-left: 15px;
+    padding-right: 15px;
+    background: url("images/border_tate.png") repeat-y;
+}
+
+.n-link {
+    text-align: center;
+    padding-left: 5%;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button

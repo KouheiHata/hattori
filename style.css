@@ -499,8 +499,12 @@ html {
 
 .footer_back {
 	background-image: url("./images/footer_back.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	background-size: cover;
+}
+
+.res_footer {
+	padding-top: 20px;
 }
 
 .footer_border {
@@ -515,8 +519,11 @@ html {
 	border-left:2px solid #fff;
 }
 
-.ul_haba {
-	margin-left:20px;
+.ul_sitemap {
+	padding-left:20px;
+	display: inline;
+	float: left;
+	margin: 0 auto;
 }
 
 .ul_sitemap li {
@@ -527,7 +534,7 @@ html {
 .footer_border_y li {
 	padding-top: 5px;
 	padding-left: 15px;
-	font-size: small;
+	font-size: 15px;
 	white-space:nowrap;
 }
 

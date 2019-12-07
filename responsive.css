@@ -256,3 +256,16 @@
 /* -------------------------------------------------------------------------------- */
 /*	12. Footer
 /* -------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 767.98px) {
+	.res_footer {
+		padding-top: 80px;
+		padding-left: 30px;
+	}
+
+	.ul_sitemap {
+		display: block;
+		float: none;
+		margin-left: 50px;
+	}
+}

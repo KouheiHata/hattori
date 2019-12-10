@@ -43,7 +43,7 @@ wp_deregister_script('jquery');
     <div class="container-fluid">
 	    <div class="row">
            <div class="col-lg-4 col-md-4 col-sm-12 order-lg-2 order-md-2">
-                <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり">
+                <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 order-lg-1 order-md-1">
                 <p class="header_p">〒915-0056</p>
@@ -56,15 +56,18 @@ wp_deregister_script('jquery');
             <div class="col-lg-12"></div>
             <nav class="order-sm-4">
                 <ul class="nav-ul">
-                    <li ><a class="n_link" href=""><img class="text-center" src="<?php echo esc_url( get_theme_file_uri('images/home.jpg') ); ?>" alt=""><br>HOME</a></li>
-                    <li><a class="n_link" href="n_link"><img src="<?php echo esc_url( get_theme_file_uri('images/pancil.jpg') ); ?>" alt=""><br>紹介記事</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/sprout.jpg') ); ?>" alt=""><br>野菜苗</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/flower.jpg') ); ?>" alt=""><br>花苗</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/eggplant.jpg') ); ?>" alt=""><br>野菜</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/kiku_11.jpg') ); ?>" alt=""><br>食用菊</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/letter.jpg') ); ?>" alt=""><br>お問い合わせ</a></li>
+                    <li ><a class="n_link" href=""><img class="text-center" src="<?php echo esc_url( get_theme_file_uri('images/home.png') ); ?>" alt=""><br>HOME</a></li>
+                    <li><a class="n_link" href="n_link"><img src="<?php echo esc_url( get_theme_file_uri('images/pancil.png') ); ?>" alt=""><br>紹介記事</a></li>
+                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/sprout.png') ); ?>" alt=""><br>野菜苗</a></li>
+                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/flower.png') ); ?>" alt=""><br>花苗</a></li>
+                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/eggplant.png') ); ?>" alt=""><br>野菜</a></li>
+                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/kiku_11.png') ); ?>" alt=""><br>食用菊</a></li>
+                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/letter.png') ); ?>" alt=""><br>お問い合わせ</a></li>
                 </ul>
             </nav>
+            <div class="col-lg-12 col-md-12 col-sm-12 order-lg-5 order-md-5 order-sm-5">
+                <img class="main-img" src="<?php echo esc_url( get_theme_file_uri('images/main-img.jpg') ); ?>" alt="">
+            </div>
         </div>
     </div>
 </header>

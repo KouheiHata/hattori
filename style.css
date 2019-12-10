@@ -37,7 +37,6 @@
 /* -------------------------------------------------------------------------------- */
 html {
     overflow-x: hidden;
-    background-image: url(images/cloth_background.jpg);
 }
 
 html,
@@ -46,6 +45,7 @@ body {
     padding: 0;
     width: 100%;
     height: auto;
+    background-image: url(images/cloth_background.jpg);
 }
 
 h1,
@@ -456,6 +456,11 @@ img {
     right: 10%;
     bottom:20%;
 }
+.main-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	6.	Menu Navigation
@@ -468,31 +473,37 @@ nav {
 }
 
 .nav-ul {
+    margin: 0;
+    padding: 0;
     text-align: center;
+    font-size: 0;
 }
 
 nav ul li {
-    margin: 4px 0 4px 0;
+    margin: 4px;
     padding: 25px 0px 5px 15px;
     display: inline-block;
+    text-align: center;
     font-size: 15pt;
     color: #42210b;
     background: url("images/border_tate.png") repeat-y;
-    background-position: left 20px;
 }
 
 nav ul li:last-child::after {
     content: '';
-    margin-left: 15px;
+    margin-left: 5px;
     padding-top: 55px;
     padding-right: 15px;
     background: url("images/border_tate.png") repeat-y;
 }
-
-.m-img {
-    text-align: center;
+nav ul li:hover {
+    background: url("images/border_tate.png") repeat-y;
+    background-color: #ffff7d;
+    transition: 0.4s;
 }
-
+.n_link:hover {
+    text-decoration: none;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button

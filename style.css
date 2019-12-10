@@ -247,7 +247,6 @@ summary {
 
 
 body {
-    background: #fff;
     color: #000;
     font-family: BokutachinoGothic, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     ;
@@ -424,6 +423,11 @@ img {
     background-image: url(images/cloth_background.jpg);
 }
 
+.header-logo {
+    
+}
+
+
 .header_p {
     padding-left: 10%;
     color: #42210b;
@@ -480,14 +484,15 @@ nav ul li {
 nav ul li:last-child::after {
     content: '';
     margin-left: 15px;
+    padding-top: 55px;
     padding-right: 15px;
     background: url("images/border_tate.png") repeat-y;
 }
 
-.n-link {
+.m-img {
     text-align: center;
-    padding-left: 5%;
 }
+
 
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button

@@ -65,9 +65,6 @@ wp_deregister_script('jquery');
                     <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/letter.png') ); ?>" alt=""><br>お問い合わせ</a></li>
                 </ul>
             </nav>
-            <div class="col-lg-12 col-md-12 col-sm-12 order-lg-5 order-md-5 order-sm-5">
-                <img class="main-img" src="<?php echo esc_url( get_theme_file_uri('images/main-img.jpg') ); ?>" alt="">
-            </div>
         </div>
     </div>
 </header>

@@ -423,11 +423,6 @@ img {
     background-image: url(images/cloth_background.jpg);
 }
 
-.header-logo {
-    
-}
-
-
 .header_p {
     padding-left: 10%;
     color: #42210b;
@@ -451,10 +446,9 @@ img {
 }
 
 .header-logo {
-    width: 500px;
+    height: 100%;
     position: relative;
     right: 10%;
-    bottom:20%;
 }
 .main-img {
     width: 100%;
@@ -467,7 +461,7 @@ img {
 /* -------------------------------------------------------------------------------- */
 nav {
     width: 100%;
-    padding: 10px 0;
+    padding-top: 10px;
     background: url("images/border_yoko.png") repeat-x;
     background-color: #fff;
 }

@@ -57,7 +57,7 @@ wp_deregister_script('jquery');
             <nav class="order-sm-4">
                 <ul class="nav-ul">
                     <li ><a class="n_link" href=""><img class="text-center" src="<?php echo esc_url( get_theme_file_uri('images/home.png') ); ?>" alt=""><br>HOME</a></li>
-                    <li><a class="n_link" href="n_link"><img src="<?php echo esc_url( get_theme_file_uri('images/pancil.png') ); ?>" alt=""><br>紹介記事</a></li>
+                    <li><a class="n_link" href="/about"><img src="<?php echo esc_url( get_theme_file_uri('images/pancil.png') ); ?>" alt=""><br>紹介記事</a></li>
                     <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/sprout.png') ); ?>" alt=""><br>野菜苗</a></li>
                     <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/flower.png') ); ?>" alt=""><br>花苗</a></li>
                     <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/eggplant.png') ); ?>" alt=""><br>野菜</a></li>

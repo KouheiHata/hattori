@@ -58,10 +58,10 @@ wp_deregister_script('jquery');
                 <ul class="nav-ul">
                     <li ><a class="n_link" href=""><img class="text-center" src="<?php echo esc_url( get_theme_file_uri('images/home.png') ); ?>" alt=""><br>HOME</a></li>
                     <li><a class="n_link" href="/about"><img src="<?php echo esc_url( get_theme_file_uri('images/pancil.png') ); ?>" alt=""><br>紹介記事</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/sprout.png') ); ?>" alt=""><br>野菜苗</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/flower.png') ); ?>" alt=""><br>花苗</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/eggplant.png') ); ?>" alt=""><br>野菜</a></li>
-                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/kiku_11.png') ); ?>" alt=""><br>食用菊</a></li>
+                    <li><a class="n_link" href="/yasainae"><img src="<?php echo esc_url( get_theme_file_uri('images/sprout.png') ); ?>" alt=""><br>野菜苗</a></li>
+                    <li><a class="n_link" href="/hananae"><img src="<?php echo esc_url( get_theme_file_uri('images/flower.png') ); ?>" alt=""><br>花苗</a></li>
+                    <li><a class="n_link" href="/yasai"><img src="<?php echo esc_url( get_theme_file_uri('images/eggplant.png') ); ?>" alt=""><br>野菜</a></li>
+                    <li><a class="n_link" href="/daisy"><img src="<?php echo esc_url( get_theme_file_uri('images/kiku_11.png') ); ?>" alt=""><br>食用菊</a></li>
                     <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/letter.png') ); ?>" alt=""><br>お問い合わせ</a></li>
                 </ul>
             </nav>

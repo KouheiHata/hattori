@@ -517,6 +517,59 @@ nav ul li:hover {
 /* -------------------------------------------------------------------------------- */
 /*	10.	Single Page
 /* -------------------------------------------------------------------------------- */
+/*---- 各個別ページ汎用 -----*/
+.section {
+    width: 70%;
+    margin: 100px auto;
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+    border-radius: 6px;
+}
+.main_p {
+    color: #f08d38;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+.section_h {
+    width: 70%;
+    margin: 0 auto;
+    color: #42210b;
+    padding: 10px;
+    background: #fff;
+    border-bottom: solid 3px #8cc63f;
+    border-radius: 2px;
+}
+.category_h {
+    padding: 8px;
+    border-bottom: solid 3px #8cc63f;
+}
+/*-- 野菜苗ページ部分 --*/
+.dgloup {
+    position: relative;
+    left: 10%;
+}
+.list_title {
+    color: #42210b;
+    font-size:18px;
+    font-weight: 600;
+    margin-right: 20px;
+    float: left;
+}
+.d-list {
+    width: 200px;
+    padding: 2px;
+    margin-right: 50px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.25);
+    float: left;
+}
+option {
+    vertical-align: middle;
+}
+
 
 
 /* -------------------------------------------------------------------------------- */

@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name :hananae
+Template Name: hananae
 */
 ?>
 

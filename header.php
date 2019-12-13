@@ -42,27 +42,27 @@ wp_deregister_script('jquery');
 <header class="header">
     <div class="container-fluid">
 	    <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+           <div class="col-lg-4 col-md-4 col-sm-12 order-lg-2 order-md-2">
+                <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 order-lg-1 order-md-1">
                 <p class="header_p">〒915-0056</p>
                 <p class="header_p">越前市向新保町32-32</p>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.jpg') ); ?>" alt="苗のはっとり">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 order-lg-3 order-md-3">
                 <p class="header_p"><i class="fas fa-fax"></i>0778-22-1987</p>
                 <p class="header_p"><i class="fas fa-mobile-alt"></i>090-8265-1135</p>
             </div>
             <div class="col-lg-12"></div>
-            <nav>
+            <nav class="order-sm-4">
                 <ul class="nav-ul">
-                    <li ><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/home.jpg') ); ?>" alt=""><br>HOME</a></li>
-                    <li><a class="n_link" href="n_link">紹介記事</a></li>
-                    <li><a class="n_link" href="n_link">野菜苗</a></li>
-                    <li><a class="n_link" href="n_link">花苗</a></li>
-                    <li><a class="n_link" href="n_link">野菜</a></li>
-                    <li><a class="n_link" href="n_link">食用菊</a></li>
-                    <li><a class="n_link" href="n_link">お問い合わせ</a></li>
+                    <li ><a class="n_link" href=""><img class="text-center" src="<?php echo esc_url( get_theme_file_uri('images/home.png') ); ?>" alt=""><br>HOME</a></li>
+                    <li><a class="n_link" href="/about"><img src="<?php echo esc_url( get_theme_file_uri('images/pancil.png') ); ?>" alt=""><br>紹介記事</a></li>
+                    <li><a class="n_link" href="/yasainae"><img src="<?php echo esc_url( get_theme_file_uri('images/sprout.png') ); ?>" alt=""><br>野菜苗</a></li>
+                    <li><a class="n_link" href="/hananae"><img src="<?php echo esc_url( get_theme_file_uri('images/flower.png') ); ?>" alt=""><br>花苗</a></li>
+                    <li><a class="n_link" href="/yasai"><img src="<?php echo esc_url( get_theme_file_uri('images/eggplant.png') ); ?>" alt=""><br>野菜</a></li>
+                    <li><a class="n_link" href="/daisy"><img src="<?php echo esc_url( get_theme_file_uri('images/kiku_11.png') ); ?>" alt=""><br>食用菊</a></li>
+                    <li><a class="n_link" href=""><img src="<?php echo esc_url( get_theme_file_uri('images/letter.png') ); ?>" alt=""><br>お問い合わせ</a></li>
                 </ul>
             </nav>
         </div>

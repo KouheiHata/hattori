@@ -7,6 +7,8 @@ Template Name: フロントページ
 
 <?php get_header(); ?>
 
+<img class="main-img" src="<?php echo esc_url( get_theme_file_uri('images/main-img.jpg') ); ?>" alt="">
+
 <div class="container-fluid top_back">
 <div class="row">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">

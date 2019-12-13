@@ -37,7 +37,6 @@
 /* -------------------------------------------------------------------------------- */
 html {
     overflow-x: hidden;
-    background-image: url(images/cloth_background.jpg);
 }
 
 html,
@@ -46,6 +45,7 @@ body {
     padding: 0;
     width: 100%;
     height: auto;
+    background-image: url(images/cloth_background.jpg);
 }
 
 h1,
@@ -247,7 +247,6 @@ summary {
 
 
 body {
-    background: #fff;
     color: #000;
     font-family: BokutachinoGothic, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     ;
@@ -447,10 +446,14 @@ img {
 }
 
 .header-logo {
-    width: 500px;
+    height: 100%;
     position: relative;
     right: 10%;
-    bottom:20%;
+}
+.main-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -458,35 +461,42 @@ img {
 /* -------------------------------------------------------------------------------- */
 nav {
     width: 100%;
-    padding: 10px 0;
+    padding-top: 10px;
     background: url("images/border_yoko.png") repeat-x;
     background-color: #fff;
 }
 
 .nav-ul {
+    margin: 0;
+    padding: 0;
     text-align: center;
+    font-size: 0;
 }
 
 nav ul li {
-    margin: 4px 0 4px 0;
+    margin: 4px;
     padding: 25px 0px 5px 15px;
     display: inline-block;
+    text-align: center;
     font-size: 15pt;
     color: #42210b;
     background: url("images/border_tate.png") repeat-y;
-    background-position: left 20px;
 }
 
 nav ul li:last-child::after {
     content: '';
-    margin-left: 15px;
+    margin-left: 5px;
+    padding-top: 55px;
     padding-right: 15px;
     background: url("images/border_tate.png") repeat-y;
 }
-
-.n-link {
-    text-align: center;
-    padding-left: 5%;
+nav ul li:hover {
+    background: url("images/border_tate.png") repeat-y;
+    background-color: #ffff7d;
+    transition: 0.4s;
+}
+.n_link:hover {
+    text-decoration: none;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -510,6 +520,59 @@ nav ul li:last-child::after {
 /* -------------------------------------------------------------------------------- */
 /*	10.	Single Page
 /* -------------------------------------------------------------------------------- */
+/*---- 各個別ページ汎用 -----*/
+.section {
+    width: 70%;
+    margin: 100px auto;
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+    border-radius: 6px;
+}
+.main_p {
+    color: #f08d38;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+.section_h {
+    width: 70%;
+    margin: 0 auto;
+    color: #42210b;
+    padding: 10px;
+    background: #fff;
+    border-bottom: solid 3px #8cc63f;
+    border-radius: 2px;
+}
+.category_h {
+    padding: 8px;
+    border-bottom: solid 3px #8cc63f;
+}
+/*-- 野菜苗ページ部分 --*/
+.dgloup {
+    position: relative;
+    left: 10%;
+}
+.list_title {
+    color: #42210b;
+    font-size:18px;
+    font-weight: 600;
+    margin-right: 20px;
+    float: left;
+}
+.d-list {
+    width: 200px;
+    padding: 2px;
+    margin-right: 50px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.25);
+    float: left;
+}
+option {
+    vertical-align: middle;
+}
+
 
 
 /* -------------------------------------------------------------------------------- */

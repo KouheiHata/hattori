@@ -170,20 +170,20 @@ function new_custom_post_type() {
 
 	// もともと設定されていたカスタム投稿タイプ「news」
 	register_post_type(
-		'news',
+		'schedule',
 		array(
 			'labels' => array(
-				'name' => '過去事例',
-				'singular_name' => 'works',
+				'name' => '年間スケジュール',
+				'singular_name' => 'schedule',
 				'add_new' => '新規追加',
 				'add_new_item' => '新規追加',
-				'edit_item' => '過去事例を編集',
+				'edit_item' => 'スケジュールを編集',
 				'new_item' => '新着情報',
-				'all_items' => '過去事例一覧',
-				'view_item' => '過去事例を見る',
+				'all_items' => 'スケジュール一覧',
+				'view_item' => 'スケジュールを見る',
 				'search_items' => '検索する',
-				'not_found' => '過去事例が見つかりませんでした。',
-				'not_found_in_trash' => 'ゴミ箱内に過去事例が見つかりませんでした。'
+				'not_found' => 'スケジュールが見つかりませんでした。',
+				'not_found_in_trash' => 'ゴミ箱内にスケジュールが見つかりませんでした。'
 			),
 			'public' => true,
 			'has_archive' => true,
@@ -195,7 +195,7 @@ function new_custom_post_type() {
 				'thumbnail'
 			),
 			'rewrite' => true,
-			'taxonomies' => array('news')
+			'taxonomies' => array('schedule')
 		)
 	);
 
@@ -216,6 +216,6 @@ function new_custom_post_type() {
 		'hierarchical'        => true,
 		'labels'              => $labels,
 	);
-	register_taxonomy( 'news_cat', 'news', $args );
+	register_taxonomy( 'schedule_cat', 'schedule', $args );
 }
 add_action( 'init', 'new_custom_post_type');

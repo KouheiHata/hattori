@@ -72,7 +72,7 @@
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-block pt-3" align="center">
-		<a href="#" class="btn_naetyumon">苗注文票のダウンロードはこちら&nbsp;<i class="far fa-file-excel"></i></a>
+		<a href="#" class="btn_naetyumon">苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-3">

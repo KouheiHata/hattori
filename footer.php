@@ -3,7 +3,7 @@
 <div class="container-fluid footer_back">
 	<div class="row lh20" style="padding-top: 100px;padding-left: 5%;padding-right: 5%;">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-inline res_footer">
-			<h2>サイトマップ&nbsp;&nbsp;<div class="footer_border"></div></h2>
+			<h3 class="s-title">サイトマップ</h3>
 		</div>
 
 		<div style="margin: 0 auto;">

@@ -8,7 +8,7 @@
 
 		<div style="margin: 0 auto;">
 		<ul class="ul_sitemap pt-2">
-		<li>ＨＯＭＥ</li>
+		<li>HOME</li>
 		</ul>
 
 		<ul class="ul_sitemap pt-2">

@@ -512,6 +512,30 @@ nav ul li:hover {
 	background-image: url(images/cloth_background.jpg);
 }
 
+.sc_tuki {
+	padding-left: 80px;
+	font-size: 100px;
+}
+
+.sc_back {
+	background-image: url(images/border_sch.png);
+	background-repeat: no-repeat;
+}
+
+.sc_back2 {
+	background-image: url(images/border_tate.png);
+	background-repeat: repeat-y;
+	height: 120px;
+}
+
+.sc_border_x {
+	width: 94%;
+	position: relative;
+	top: -36px;
+	left: -13px;
+	height: 3px;
+}
+
 /* -------------------------------------------------------------------------------- */
 /*	9.	Archive Page
 /* -------------------------------------------------------------------------------- */

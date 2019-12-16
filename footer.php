@@ -3,7 +3,7 @@
 <div class="container-fluid footer_back">
 	<div class="row lh20" style="padding-top: 100px;padding-left: 5%;padding-right: 5%;">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-inline res_footer">
-			<h2>サイトマップ&nbsp;&nbsp;<div class="footer_border"></div></h2>
+			<h3 class="s-title">サイトマップ</h3>
 		</div>
 
 		<div style="margin: 0 auto;">
@@ -72,7 +72,7 @@
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-block pt-3" align="center">
-		<a href="#" class="btn_naetyumon">苗注文票のダウンロードはこちら&nbsp;<i class="far fa-file-excel"></i></a>
+		<a href="#" class="btn_naetyumon">苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-3">

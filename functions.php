@@ -199,6 +199,36 @@ function new_custom_post_type() {
 		)
 	);
 
+	// 新しく設定したカスタム投稿タイプ「野菜」
+	register_post_type(
+		'yasai',
+		array(
+			'labels' => array(
+				'name' => '今月の取り扱い野菜',
+				'singular_name' => 'yasai',
+				'add_new' => '新規追加',
+				'add_new_item' => '新規追加',
+				'edit_item' => '今月の取り扱い野菜を編集',
+				'new_item' => '今月の取り扱い野菜',
+				'all_items' => '今月の取り扱い野菜一覧',
+				'view_item' => '今月の取り扱い野菜を見る',
+				'search_items' => '検索する',
+				'not_found' => '今月の取り扱い野菜が見つかりませんでした。',
+				'not_found_in_trash' => 'ゴミ箱内に今月の取り扱い野菜が見つかりませんでした。'
+			),
+			'public' => true,
+			'has_archive' => true,
+			'menu_icon' => 'dashicons-media-text',
+			'menu_position' => 5,
+			'supports' => array(
+				'title',
+				'editor',
+				'thumbnail',
+			),
+			'rewrite' => true,
+			'taxonomies' => array('yasai')
+		)
+	);
 
 	$labels = array(
 		'name'                => 'カテゴリー',
@@ -218,26 +248,7 @@ function new_custom_post_type() {
 		'labels'              => $labels,
 	);
 	register_taxonomy( 'schedule_cat', 'schedule', $args );
+	register_taxonomy( 'yasai_cat', 'yasai', $args );
+
 }
 add_action( 'init', 'new_custom_post_type');
-
-function create_post_type() {
-$Supportcustom = [// 投稿画面で表示される項目の設定
-'title', // 記事タイトル
-'editor', // 記事本文
-'thumbnail', // アイキャッチ画像
-];
-register_post_type( 'yasai', // URLになる部分
-array(
-'label' => '今月の取り扱い野菜', // 管理画面の左メニューに表示されるテキスト
-'labels' => array(
-'all_items' => '今月の取り扱い野菜一覧'// 管理画面の左メニューの下層に表示されるテキスト
-),
-'public' => true, 
-'has_archive' => true,
-'menu_position' => 5, 
-'supports' => $Supportscustom 
-)
-);
-}
-add_action( 'init', 'create_post_type' );

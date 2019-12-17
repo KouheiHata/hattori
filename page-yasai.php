@@ -30,12 +30,17 @@ Template Name: yasai
             <p class="card-p"><i class="fas fa-phone"></i>0778-23-3511</p>
             <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.2550622198405!2d136.15819831461175!3d35.89176832600518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8ac5d7588c8a7%3A0xfe1659a2275e2828!2z55m-5aeT44Gu6aSo5Y2X5bqX!5e0!3m2!1sja!2sjp!4v1576455835310!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-        <div class="col-12"><h4 class="section_h">今月の取り扱い野菜</h4></div>
+        <div class="col-12">
+            <h4 class="section_h">今月の取り扱い野菜</h4>
+        </div>
 
     </div>
 </div>
 
-        <!-- ループ開始 -->
+<div class="container">
+    <div class="row">
+
+<!-- ループ開始 -->
 <?php
 	$args = Array(
 		'post_type' => 'yasai',
@@ -49,24 +54,23 @@ Template Name: yasai
 		while ( $wp_query->have_posts() ) {
 			$wp_query->the_post(); ?>
 
-<!-- ループする部分 -->
-<div class="container">
-    <div class="row">
-        <div class="card-col col-lg-4 col-md-4 col-sm-4">
-<div><?php the_content(); ?></div>
-<h5 class="card-title"><?php the_title(); ?></h5>
-		</div>
-    </div>
-</div>
+        <!-- ループする部分 -->
 
-<?php
+        <div class="card-col col-lg-4 col-md-4 col-sm-4">
+            <div><?php the_content(); ?></div>
+            <h5 class="card-title"><?php the_title(); ?></h5>
+        </div>
+
+
+        <?php
 	}
 }
 
 // 投稿データのリセット
 wp_reset_postdata();
  ?>
-<!-- ループ終了 -->
-
+        <!-- ループ終了 -->
+    </div>
+</div>
 
 <?php get_footer(); ?>

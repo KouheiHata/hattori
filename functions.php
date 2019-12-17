@@ -199,6 +199,7 @@ function new_custom_post_type() {
 		)
 	);
 
+
 	$labels = array(
 		'name'                => 'カテゴリー',
 		'singular_name'       => 'カテゴリー',
@@ -219,3 +220,24 @@ function new_custom_post_type() {
 	register_taxonomy( 'schedule_cat', 'schedule', $args );
 }
 add_action( 'init', 'new_custom_post_type');
+
+function create_post_type() {
+$Supportcustom = [// 投稿画面で表示される項目の設定
+'title', // 記事タイトル
+'editor', // 記事本文
+'thumbnail', // アイキャッチ画像
+];
+register_post_type( 'yasai', // URLになる部分
+array(
+'label' => '今月の取り扱い野菜', // 管理画面の左メニューに表示されるテキスト
+'labels' => array(
+'all_items' => '今月の取り扱い野菜一覧'// 管理画面の左メニューの下層に表示されるテキスト
+),
+'public' => true, 
+'has_archive' => true,
+'menu_position' => 5, 
+'supports' => $Supportscustom 
+)
+);
+}
+add_action( 'init', 'create_post_type' );

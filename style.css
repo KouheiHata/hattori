@@ -589,6 +589,10 @@ nav ul li:hover {
     background: #8cc63f;
     border-radius: 4px;
 }
+.d_g_pdf:hover {
+    color: #fff;
+    opacity: 0.8;
+}
 
 .fa-file-pdf {
     margin: 0 0.5rem;
@@ -627,13 +631,34 @@ nav ul li:hover {
 }
 /*---- 花苗ページ部分 ----*/
 
-.card {
-    width: 250px;
-    margin: 0 auto;
+.flower_h{
+    margin: 2.5rem auto;
+    padding: 5px;
+    border-bottom: solid 3px #8cc63f;
 }
-.card_h {
-    margin: 1.5rem 0;
+.f-img {
+    text-align: center;
 }
+
+.f-table {
+    margin-top: 2.5rem;
+    border: solid 2px #8cc63f;
+}
+.f-name {
+    background: #8cc63f;
+    color: #fff;
+}
+.f-table tr th, .f-table tr td {
+    font-size: 18px;
+    text-align: center;
+    border: solid 2px #8cc63f;
+    font-weight: bold;
+}
+.f-table tr td {
+    background: #fff;
+    color: #42210b;
+}
+
 /*---- 野菜ページ部分 ----*/
 .card-p {
     font-size: 16px;

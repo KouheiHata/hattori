@@ -577,7 +577,7 @@ nav ul li:hover {
     border-radius: 2px;
 }
 .category_h {
-    width: 65%;
+    width: 85%;
     margin: 4rem auto;
     padding: 8px;
     border-bottom: solid 3px #8cc63f;
@@ -646,7 +646,7 @@ nav ul li:hover {
 /*-- 野菜苗ページ部分 --*/
 .dgloup {
     position: relative;
-    left: 10%;
+    left: 20%;
 }
 .list_title {
     color: #42210b;
@@ -662,6 +662,19 @@ nav ul li:hover {
     border-radius: 4px;
     box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.2);
     float: left;
+}
+.b-table {
+    background: #fff;
+    border: solid 1px #8cc63f;
+}
+.b-table tr td, .b-table tr th {
+    border: solid 1px #8cc63f;
+}
+.b-cell {
+    width: 150px;
+}
+.badge {
+    font-family: メイリオ, Meiryo, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 /*---- 花苗ページ部分 ----*/
 

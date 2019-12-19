@@ -230,26 +230,6 @@ function new_custom_post_type() {
 		)
 	);
 
-	$labels = array(
-		'name'                => 'カテゴリー',
-		'singular_name'       => 'カテゴリー',
-		'search_items'        => 'カテゴリー検索',
-		'all_items'           => '全てのカテゴリー',
-		'parent_item'         => '親カテゴリー',
-		'parent_item_colon'   => '親カテゴリー:',
-		'edit_item'           => 'カテゴリーを編集',
-		'update_item'         => 'カテゴリーを更新',
-		'add_new_item'        => 'カテゴリーを追加',
-		'new_item_name'       => '新規カテゴリー',
-		'menu_name'           => 'カテゴリー'
-	);
-	$args = array(
-		'hierarchical'        => true,
-		'labels'              => $labels,
-	);
-	register_taxonomy( 'schedule_cat', 'schedule', $args );
-	register_taxonomy( 'yasai_cat', 'yasai', $args );
-
     // 新しく設定したカスタム投稿タイプ「紹介記事」
 	register_post_type(
 		'about',
@@ -277,8 +257,7 @@ function new_custom_post_type() {
 				'thumbnail',
 			),
 			'rewrite' => true,
-			'taxonomies' => array('about
-            ')
+			'taxonomies' => array('about')
 		)
 	);
 
@@ -299,7 +278,10 @@ function new_custom_post_type() {
 		'hierarchical'        => true,
 		'labels'              => $labels,
 	);
+
+	register_taxonomy( 'schedule_cat', 'schedule', $args );
+	register_taxonomy( 'yasai_cat', 'yasai', $args );
 	register_taxonomy( 'about_cat', 'about', $args );
-    
+
 }
 add_action( 'init', 'new_custom_post_type');

@@ -526,19 +526,21 @@ nav ul li:hover {
 .sc_back {
 	background-image: url(images/border_sch.png);
 	background-repeat: no-repeat;
+	white-space: nowrap;
 }
 
 .sc_back2 {
 	background-image: url(images/border_tate.png);
 	background-repeat: repeat-y;
 	height: 120px;
+	white-space: nowrap;
 }
 
 .sc_border_x {
 	width: 94%;
 	position: relative;
 	top: -36px;
-	left: -13px;
+	left: -24px;
 	height: 3px;
 }
 

@@ -39,7 +39,7 @@ window.onload = entryChange;
 
 <div class="container">
     <div class="row">
-<section class="section">
+<section class="section mt-5">
     <p class="main_p">
         品名を選択するとご希望の苗が一覧表示されます。<br>
         ご注文はページ下記の注文票をダウンロードください

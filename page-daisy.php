@@ -7,7 +7,7 @@ Template Name: daisy
 
 <?php get_header(); ?>
 <img src="<?php echo esc_url( get_theme_file_uri('images/main-img6.jpg') ); ?>" alt="食用菊">
-<div class="container">
+<div class="container pt-5">
    <div class="row">
     <h4 class="section_h">食用菊って？</h4>
     <div class="col-lg-4 col-md-4 col-sm-12">
@@ -32,11 +32,19 @@ Template Name: daisy
     <section class="section">
     <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
     <a class="d_g_pdf" href="#">2019年度苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
-</section>
-<h4 class="section_h">おいしいレシピ</h4>
+    </section>
+
+<h4 class="section_h mt-5">おいしいレシピ</h4>
 <div class="col-lg-4 col-md-4 col-sm-12">
     
 </div>
-    </div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+    
 </div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+    
+</div>
+
+    </div> <!-- row -->
+</div>     <!-- container -->
 <?php get_footer(); ?>

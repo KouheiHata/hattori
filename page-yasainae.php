@@ -36,6 +36,9 @@ window.onload = entryChange;
 </script>
 
 <img src="<?php echo esc_url( get_theme_file_uri('images/main-img3.jpg') ); ?>" alt="">
+
+<div class="container">
+    <div class="row">
 <section class="section">
     <p class="main_p">
         品名を選択するとご希望の苗が一覧表示されます。<br>
@@ -54,6 +57,9 @@ window.onload = entryChange;
         </select>
     </div>
 </section>
+    </div> <!-- row -->
+</div>     <!-- container -->
+
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md12 col-sm-12">
@@ -65,10 +71,10 @@ window.onload = entryChange;
 	        <div class="col-lg-12 col-md12 col-sm-12">
 	            <h2 class="category_h">なす（ナス科）</h2>
 	        </div>
-	        <div class="col-lg-3 col-md-3 col-sm-12">
-	        <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="">
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="position: relative; left: 80px;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="なす">
 			</div>
-	        <div class="col-lg-9 col-md-9 col-sm-12 px-5">
+	        <div class="col-lg-8 col-md-8 col-sm-12 px-5">
 	            <table class="table b-table">
 	               <thead><tr>
 	                   <th class="b-cell">品名</th>
@@ -102,10 +108,10 @@ window.onload = entryChange;
 	        <div class="col-lg-12 col-md12 col-sm-12">
 	        <h2 class="category_h">大根（アブラナ科）</h2>
 	        </div>
-	        <div class="col-lg-3 col-md-3 col-sm-12">
-            <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="">
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="position: relative; left: 80px;">
+            <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="大根">
 			</div>
-	        <div class="col-lg-9 col-md-9 col-sm-12 px-5">
+	        <div class="col-lg-8 col-md-8 col-sm-12 px-5">
             <table class="table b-table">
                <thead><tr>
                    <th class="b-cell">品名</th>

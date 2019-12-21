@@ -168,37 +168,6 @@ add_action('the_content', 'replaceImagePath');
 // カスタム投稿タイプを登録する関数
 function new_custom_post_type() {
 
-	// もともと設定されていたカスタム投稿タイプ「news」
-	register_post_type(
-		'schedule',
-		array(
-			'labels' => array(
-				'name' => '年間スケジュール',
-				'singular_name' => 'schedule',
-				'add_new' => '新規追加',
-				'add_new_item' => '新規追加',
-				'edit_item' => 'スケジュールを編集',
-				'new_item' => '新着情報',
-				'all_items' => 'スケジュール一覧',
-				'view_item' => 'スケジュールを見る',
-				'search_items' => '検索する',
-				'not_found' => 'スケジュールが見つかりませんでした。',
-				'not_found_in_trash' => 'ゴミ箱内にスケジュールが見つかりませんでした。'
-			),
-			'public' => true,
-			'has_archive' => true,
-			'menu_icon' => 'dashicons-format-chat',
-			'menu_position' => 5,
-			'supports' => array(
-				'title',
-				'editor',
-				'thumbnail'
-			),
-			'rewrite' => true,
-			'taxonomies' => array('schedule')
-		)
-	);
-
 	// 新しく設定したカスタム投稿タイプ「野菜」
 	register_post_type(
 		'yasai',
@@ -279,7 +248,6 @@ function new_custom_post_type() {
 		'labels'              => $labels,
 	);
 
-	register_taxonomy( 'schedule_cat', 'schedule', $args );
 	register_taxonomy( 'yasai_cat', 'yasai', $args );
 	register_taxonomy( 'about_cat', 'about', $args );
 

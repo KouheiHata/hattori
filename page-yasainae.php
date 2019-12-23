@@ -71,7 +71,7 @@ window.onload = entryChange;
 	        <div class="col-lg-12 col-md12 col-sm-12">
 	            <h2 class="category_h">なす（ナス科）</h2>
 	        </div>
-	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="position: relative; left: 80px;">
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
 	        <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="なす">
 			</div>
 	        <div class="col-lg-8 col-md-8 col-sm-12 px-5">
@@ -108,7 +108,7 @@ window.onload = entryChange;
 	        <div class="col-lg-12 col-md12 col-sm-12">
 	        <h2 class="category_h">大根（アブラナ科）</h2>
 	        </div>
-	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="position: relative; left: 80px;">
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
             <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="大根">
 			</div>
 	        <div class="col-lg-8 col-md-8 col-sm-12 px-5">

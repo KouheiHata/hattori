@@ -710,6 +710,8 @@ button, input, select, textarea {
 }
 .f-img {
     text-align: center;
+    width: 270px;
+	height: 180px;
 }
 
 .f-table {

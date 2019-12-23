@@ -58,8 +58,8 @@ Template Name: yasai
 
         <!-- ループする部分 -->
             <div class="col-lg-4 col-md-4 col-sm-4 p-5">
-            <div><?php the_content(); ?></div>
-            <h5 class="card-title"><?php the_title(); ?></h5>
+            <div style="height: 195px;"><?php the_content(); ?></div>
+            <h5 class="card-title mt-3"><?php the_title(); ?></h5>
         </div>
 
         <?php

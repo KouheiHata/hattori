@@ -845,6 +845,10 @@ html {
 	white-space:nowrap;
 }
 
+.ul_sitemap li a {
+	color: #ffffff;
+}
+
 .ul_sitemap li >ul li {
     font-size: 18px;
 }

@@ -9,12 +9,9 @@ Template Name: yasai
 
 <img src="<?php echo esc_url( get_theme_file_uri('images/main-img5.jpg') ); ?>" alt="">
 
-<div class="container">
+<div class="container mt-5">
     <div class="row">
-        <h4 class="section_h">直売先（お取り置きも可能です）</h4>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="container">
-                <div class="row">
+        <h4 class="section_h mt-5">直売先（お取り置きも可能です）</h4>
                     <div class="col-lg-4 col-md-4 col-sm-4 p-5">
                         <h5 class="card-title">コープたけふ　みどり館</h5>
                         <p class="card-p">〒915-0092</p>
@@ -36,9 +33,6 @@ Template Name: yasai
                         <p class="card-p"><i class="fas fa-phone"></i>0778-23-3511</p>
                         <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.2550622198405!2d136.15819831461175!3d35.89176832600518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8ac5d7588c8a7%3A0xfe1659a2275e2828!2z55m-5aeT44Gu6aSo5Y2X5bqX!5e0!3m2!1sja!2sjp!4v1576455835310!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
-                </div>
-            </div>
-        </div>
 
     <h4 class="section_h">今月の取り扱い野菜</h4>
 

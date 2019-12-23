@@ -452,7 +452,6 @@ button, input, select, textarea {
 }
 
 .header-logo {
-    height: 100%;
     position: relative;
     right: 10%;
 }

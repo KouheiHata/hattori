@@ -1,7 +1,7 @@
 <footer class="Footer">
 
 <div class="container-fluid footer_back">
-	<div class="row lh20" style="padding-top: 100px;padding-left: 5%;padding-right: 5%;">
+	<div class="row lh20" style="padding-top: 100px;">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-inline res_footer">
 			<h3 class="s-title">サイトマップ</h3>
 		</div>
@@ -71,7 +71,7 @@
 		</ul>
 		</div>
 
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-block pt-3 text-center">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-block pt-3" align="center">
 		<a href="#" class="btn_naetyumon">苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
 		</div>
 

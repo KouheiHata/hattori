@@ -521,6 +521,10 @@ button, input, select, textarea {
 }
 
 /* ナビメニューリンク領域 */
+.nav-item {
+	width: 127px;
+}
+
 .nav-item a {
     position: relative;
     left: 4px;

@@ -58,36 +58,28 @@ wp_deregister_script('jquery');
             <div class="col-lg-12 col-md-12 col-sm-12 px-0 order-sm-4">
 		        <div class="nav-wrapper">
 		            <nav id="global-nav">
-		                <ul style="text-align: center;">
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
-		                    <li class="nav-item"><a href="/"><img src="<?php echo get_theme_file_uri('images/menu_ico_home.png'); ?>" alt="HOME">
+		                <ul class="text-center">
+		                    <li class="nav-item text-center"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_home.png'); ?>" alt="HOME">
 		                            <p>HOME</p>
 		                        </a></li>
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
-		                    <li class="nav-item"><a href="/about"><img src="<?php echo get_theme_file_uri('images/menu_ico_shoukai.png'); ?>" alt="ABOUT">
+		                    <li class="nav-item text-center"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_shoukai.png'); ?>" alt="紹介記事">
 		                            <p>紹介記事</p>
 		                        </a></li>
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
-		                    <li class="nav-item"><a href="/yasainae"><img src="<?php echo get_theme_file_uri('images/menu_ico_nae.png'); ?>" alt="野菜苗">
+		                    <li class="nav-item text-center"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_nae.png'); ?>" alt="野菜苗">
 		                            <p>野菜苗</p>
 		                        </a></li>
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
-		                    <li class="nav-item"><a href="/hananae"><img src="<?php echo get_theme_file_uri('images/menu_ico_hana.png'); ?>" alt="花苗">
+		                    <li class="nav-item text-center"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_hana.png'); ?>" alt="花苗">
 		                            <p>花苗</p>
 		                        </a></li>
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
-		                    <li class="nav-item"><a href="/yasai-2"><img src="<?php echo get_theme_file_uri('images/menu_ico_yasai.png'); ?>" alt="野菜">
+		                    <li class="nav-item text-center"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_yasai.png'); ?>" alt="野菜">
 		                            <p>野菜</p>
 		                        </a></li>
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
-		                    <li class="nav-item"><a href="/daisy"><img src="<?php echo get_theme_file_uri('images/menu_ico_kiku.png'); ?>" alt="食用菊">
+		                    <li class="nav-item text-center"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_kiku.png'); ?>" alt="食用菊">
 		                            <p>食用菊</p>
 		                        </a></li>
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
-		                    <li class="nav-item"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_contact.png'); ?>" alt="お問い合わせ">
+		                    <li class="nav-item text-center"><a href="#"><img src="<?php echo get_theme_file_uri('images/menu_ico_contact.png'); ?>" alt="お問い合わせ">
 		                            <p>お問い合わせ</p>
 		                        </a></li>
-		                    <li class="nav-item" id="nav-separator"><img src="<?php echo get_theme_file_uri('images/menu_line_vertical.png'); ?>"></li>
 		                </ul>
 		            </nav>
 		        </div>

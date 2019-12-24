@@ -35,6 +35,11 @@
 /* -------------------------------------------------------------------------------- */
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------------- */
+@font-face {
+	font-family: "ぼくたちのゴシック２レギュラー";
+	src: url('font/Boku2-Regular-min.woff') format("woff");
+}
+
 html {
     overflow-x: hidden;
 }
@@ -86,7 +91,7 @@ td {
     font-weight: normal;
     font-style: normal;
     line-height: 1;
-    font-family: BokutachinoGothic, inherit;
+    font-family: ぼくたちのゴシック２レギュラー, inherit;
     text-align: left;
 }
 
@@ -240,15 +245,10 @@ summary {
 /* -------------------------------------------------------------------------------- */
 /*	1. Document
 /* -------------------------------------------------------------------------------- */
-@font-face {
-	font-family: "BokutachinoGothic";
-	src: url('./font/Boku2-Regular-min.woff');
-}
-
 
 body {
     color: #000;
-    font-family: BokutachinoGothic, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: ぼくたちのゴシック２レギュラー, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     ;
     font-size: 1em;
     font-weight: 400;

@@ -67,7 +67,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2 pb-3">
-		<li>お問い合わせ</li>
+		<li><a href="/contact">お問い合わせ</a></li>
 		</ul>
 		</div>
 

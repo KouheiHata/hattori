@@ -430,7 +430,7 @@ button, input, select, textarea {
 }
 
 .header_p {
-    padding-left: 10%;
+    text-align: center;
     color: #42210b;
     font-size: 14pt;
     font-weight: bold;
@@ -438,6 +438,12 @@ button, input, select, textarea {
 }
 .header_p:first-child {
     margin-top: 10px;
+}
+.header_td {
+    color: #42210b;
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 2rem;
 }
 .fa-fax:after {
     content: '';

@@ -45,11 +45,15 @@ wp_deregister_script('jquery');
     <div class="container-fluid">
 	    <div class="row">
            <div class="col-lg-4 col-md-4 col-sm-12 order-lg-2 order-md-2">
-                <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ">
+                <div style="margin: 0 auto;"><img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ"></div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 order-lg-1 order-md-1">
-                <p class="header_p">〒915-0056</p>
-                <p class="header_p">越前市向新保町32-32</p>
+                <p class="header_p">
+				<table border="0" style="margin:0 auto;">
+				<tr><td><div class="header_td">〒915-0056<br />
+                越前市向新保町32-32</div></td></tr>
+				</table>
+				</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 order-lg-3 order-md-3">
                 <p class="header_p"><i class="fas fa-fax"></i>0778-22-1987</p>

@@ -468,8 +468,8 @@ button, input, select, textarea {
 .nav-wrapper::before,
 .nav-wrapper::after {
     content: "";
-    display: block;
     background-image: url(images/menu_line_horizontal.png);
+    display: block;
     width: 100%;
     height: 3px;
 }

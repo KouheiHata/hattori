@@ -12,7 +12,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/about">紹介記事</a></li>
+		<li><a href="/about/">紹介記事</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
 				<li>寄せ植え体験</li>
@@ -23,7 +23,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/yasainae">野菜苗</a></li>
+		<li><a href="/yasainae/">野菜苗</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
 				<li>春野菜苗</li>
@@ -34,7 +34,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/hananae">花苗</a></li>
+		<li><a href="/hananae/">花苗</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
 				<li>花苗</li>
@@ -45,7 +45,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/yasai-2">野菜</a></li>
+		<li><a href="/yasai-2/">野菜</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
 				<li>今月の野菜</li>
@@ -56,7 +56,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/daisy">食用菊</a></li>
+		<li><a href="/daisy/">食用菊</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
 				<li>育て方</li>
@@ -67,7 +67,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2 pb-3">
-		<li><a href="/contact">お問い合わせ</a></li>
+		<li><a href="/contact/">お問い合わせ</a></li>
 		</ul>
 		</div>
 

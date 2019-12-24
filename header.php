@@ -49,7 +49,7 @@ wp_deregister_script('jquery');
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 order-lg-1 order-md-1">
                 <p class="header_p">
-				<table border="0" style="margin:0 auto;">
+				<table border="0" class="header_table">
 				<tr><td><div class="header_td">〒915-0056<br />
                 越前市向新保町32-32</div></td></tr>
 				</table>

@@ -440,6 +440,9 @@ button, input, select, textarea {
 .header_p:first-child {
     margin-top: 10px;
 }
+.header_table {
+	margin: 0 auto;
+}
 .header_td {
     color: #42210b;
     font-size: 14pt;

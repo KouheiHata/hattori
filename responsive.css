@@ -107,6 +107,18 @@
 	}
 }
 
+@media screen and (max-width: 767.98px) {
+	.header_p {
+		text-align: left;
+		position: relative;
+		padding-left: 10%;
+	}
+	.header_table {
+		margin: 0 0 0 10%;
+		position: relative;
+	}
+}
+
 /* -------------------------------------------------------------------------------- */
 /*	5. Menu Navigation
 /* -------------------------------------------------------------------------------- */

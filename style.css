@@ -475,7 +475,7 @@ button, input, select, textarea {
 }
 
 .nav-wrapper::after {
-    margin-top: 13px
+    margin-top: 15px
 }
 
 /* ナビメニュー全体設定 */

@@ -89,5 +89,4 @@ wp_deregister_script('jquery');
 		        </div>
             </div>		<!-- col-lg-12 -->
         </div>			<!-- row -->
-    </div>
 </header>

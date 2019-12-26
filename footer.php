@@ -15,8 +15,8 @@
 		<li><a href="/about/">紹介記事</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li>寄せ植え体験</li>
-				<li>イベント紹介</li>
+				<li><a href="/about-taiken/">寄せ植え体験</a></li>
+				<li><a href="/about-event/">イベント紹介</a></li>
 				<li>&nbsp;</li>
 				</div>
 			</ul>

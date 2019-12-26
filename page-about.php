@@ -14,7 +14,7 @@ Template Name: About
         <!-- ループ開始 -->
         <?php
 	$args = Array(
-		'post_type' => 'about',
+		'post_type' => 'post',
 		'post_status' => 'publish',
 		'post_per_page' => 8
 	);

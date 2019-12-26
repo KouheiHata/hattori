@@ -199,37 +199,6 @@ function new_custom_post_type() {
 		)
 	);
 
-    // 新しく設定したカスタム投稿タイプ「紹介記事」
-	register_post_type(
-		'about',
-		array(
-			'labels' => array(
-				'name' => '紹介記事',
-				'singular_name' => 'about',
-				'add_new' => '新規追加',
-				'add_new_item' => '新規追加',
-				'edit_item' => '紹介記事を編集',
-				'new_item' => '紹介記事',
-				'all_items' => '紹介記事一覧',
-				'view_item' => '紹介記事を見る',
-				'search_items' => '検索する',
-				'not_found' => '紹介記事が見つかりませんでした。',
-				'not_found_in_trash' => 'ゴミ箱内に紹介記事が見つかりませんでした。'
-			),
-			'public' => true,
-			'has_archive' => true,
-			'menu_icon' => 'dashicons-media-text',
-			'menu_position' => 5,
-			'supports' => array(
-				'title',
-				'editor',
-				'thumbnail',
-			),
-			'rewrite' => true,
-			'taxonomies' => array('about')
-		)
-	);
-
 	$labels = array(
 		'name'                => 'カテゴリー',
 		'singular_name'       => 'カテゴリー',
@@ -249,7 +218,6 @@ function new_custom_post_type() {
 	);
 
 	register_taxonomy( 'yasai_cat', 'yasai', $args );
-	register_taxonomy( 'about_cat', 'about', $args );
 
 }
 add_action( 'init', 'new_custom_post_type');

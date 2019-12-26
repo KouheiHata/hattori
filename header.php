@@ -66,7 +66,7 @@ wp_deregister_script('jquery');
 		                    <li class="nav-item text-center"><a href="/"><img src="<?php echo get_theme_file_uri('images/menu_ico_home.png'); ?>" alt="HOME">
 		                            <p>HOME</p>
 		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/about/"><img src="<?php echo get_theme_file_uri('images/menu_ico_shoukai.png'); ?>" alt="紹介記事">
+		                    <li class="nav-item text-center"><a href="/about-2/"><img src="<?php echo get_theme_file_uri('images/menu_ico_shoukai.png'); ?>" alt="紹介記事">
 		                            <p>紹介記事</p>
 		                        </a></li>
 		                    <li class="nav-item text-center"><a href="/yasainae/"><img src="<?php echo get_theme_file_uri('images/menu_ico_nae.png'); ?>" alt="野菜苗">

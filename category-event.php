@@ -1,10 +1,3 @@
-<?php 
-/*
-Template Name: About
-*/
-?>
-
-
 <?php get_header(); ?>
 <img src="<?php echo esc_url( get_theme_file_uri('images/main-img2.jpg') ); ?>" alt="苗のはっとり｜紹介画像">
 
@@ -16,7 +9,8 @@ Template Name: About
 	$args = Array(
 		'post_type' => 'post',
 		'post_status' => 'publish',
-		'post_per_page' => 8
+		'post_per_page' => 8,
+        'category_name' => 'event'
 	);
 
 	$wp_query = new WP_Query($args);

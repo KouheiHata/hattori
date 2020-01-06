@@ -35,7 +35,7 @@ Template Name: About
           </div>
           <div class="col-lg-8 col-md-12 col-sm-12 p-3">
                  <h4 class="note_h"><?php the_title(); ?></h4>
-                    <div class="note-content"><?php the_content(); ?><?php the_category(); ?></div>
+                    <div class="note-content"><?php the_content(); ?><p>カテゴリー：<?php the_category('/'); ?></p></div>
           </div>
       </div>
   </div>

@@ -9,7 +9,7 @@ Template Name: hananae
 
 <img src="<?php echo esc_url( get_theme_file_uri('images/main-img4.jpg') ); ?>" alt="">
 
-<h4 class="section_h">花苗</h4>
+<h4 class="section_h" id="flow-sap">花苗</h4>
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -76,7 +76,7 @@ Template Name: hananae
     </div>
 </div>
 
-<h4 class="section_h">切花苗</h4>
+<h4 class="section_h" id="cut-sap">切花苗</h4>
 <div class="col-lg-12 col-md-12 col-sm-12">
    <h2 class="flower_h w-75">７月</h2>
     <div class="container">
@@ -138,7 +138,7 @@ Template Name: hananae
 </div>
 
 
-<h4 class="section_h">菊苗</h4>
+<h4 class="section_h" id="daisy-sap">菊苗</h4>
        <h2 class="flower_h w-75">１０月</h2>
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="container">

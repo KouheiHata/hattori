@@ -9,7 +9,7 @@ Template Name: daisy
 <img src="<?php echo esc_url( get_theme_file_uri('images/main-img6.jpg') ); ?>" alt="食用菊">
 <div class="container pt-5">
    <div class="row">
-    <h4 class="section_h">食用菊って？</h4>
+    <h4 class="section_h" id="daisy-desc">食用菊って？</h4>
     <div class="col-lg-4 col-md-4 col-sm-12">
         <img class="desc-img" style="box-shadow: 5px 5px 5px rgba(0,0,0,0.6);" src="<?php echo esc_url( get_theme_file_uri('images/eat-daigy.jpg') ); ?>" alt="食用菊｜黄">
     </div>
@@ -17,7 +17,7 @@ Template Name: daisy
         <p class="desc-p">食用菊はその名の通り「食用に栽培されている菊」のことで観賞用の菊と比べて苦みが少なく、甘みがあるのが特徴です。<br>
         刺身の盛り合わせに食用菊が添えられているのを見たことがある方は多いと思いますが、食用菊はそれだけでなく、おひたしや和え物・酢の物・天ぷらなど様々な料理のレパートリーがあります</p>
     </div>
-    <h4 class="section_h">ハウスでの取り扱いの食用菊</h4>
+    <h4 class="section_h" id="daisy-list">ハウスでの取り扱いの食用菊</h4>
             <div class="col-lg-6">
         <img class="desc-img" src="<?php echo esc_url( get_theme_file_uri('images/enmeiraku.jpg') ); ?>" alt="延命楽（えんめいらく）">
         <h5 class="desc-title">延命楽（えんめいらく）</h5>
@@ -34,7 +34,7 @@ Template Name: daisy
     <a class="d_g_pdf" href="#">2019年度苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
     </section>
 
-<h4 class="section_h mt-5">おいしいレシピ</h4>
+<h4 class="section_h mt-5" id="recipe">おいしいレシピ</h4>
 <div class="col-lg-4 col-md-4 col-sm-12 mt-5">
 
 <div style="box-shadow: 5px 5px 5px rgba(0,0,0,0.6); margin: 0 auto; max-width:280px;width:calc(100% - 2px);border:1px solid #d2c8be;background:#F7F5F0; color:#5a320a;"> <div style="width:calc(100% - 20px); padding: 10px; display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;"> <a class="nadia-header-profile-207685" href="https://oceans-nadia.com/user/11247?utm_source=site&utm_medium=r_card&utm_campaign=recipe_card_11247_207685" target="_blank" style="display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:#000;text-decoration:none; font-size: 14px; text-align: left;"> <img src="https://asset.oceans-nadia.com/upload/save_image/67/6701b97170d3.jpg?impolicy=cropwm&w=160&h=160"srcset="https://asset.oceans-nadia.com/upload/save_image/67/6701b97170d3.jpg?impolicy=cropwm&w=160&h=160 1x,https://asset.oceans-nadia.com/upload/save_image/67/6701b97170d3.jpg?impolicy=cropwm&w=320&h=320 2x" width="30" height="30" alt="長岡美津恵akai-salad" loading="lazy" />長岡美津恵akai-salad</a> <a class="nadia-header-nadia-207685" href="https://oceans-nadia.com/?utm_source=site&utm_medium=r_card&utm_campaign=recipe_card_11247_207685" target="_blank" class="logo"><img src="https://asset.oceans-nadia.com/images/user_data/packages/default/add/img/detail/blogParts/s_logo.png" width="67"></a> </div> <a class="nadia-main-image-207685 nadia-main-image" href="https://oceans-nadia.com/user/11247/recipe/207685?utm_source=site&utm_medium=r_card&utm_campaign=recipe_card_11247_207685" target="_blank" style="width:100%;height:auto;margin-bottom:10px"><img src="https://asset.oceans-nadia.com/upload/save_image/8b/8b4de66b0ca7.jpg?impolicy=insidewm&w=410&h=614"srcset="https://asset.oceans-nadia.com/upload/save_image/8b/8b4de66b0ca7.jpg?impolicy=insidewm&w=410&h=614 1x,https://asset.oceans-nadia.com/upload/save_image/8b/8b4de66b0ca7.jpg?impolicy=insidewm&w=820&h=1228 2x" width="410" loading="lazy" /></a> <div style="font-size: 14px; padding: 5px 10px 10px 10px; text-align: left;"> <div style="font-size: 16px;font-weight: bold;margin: 5px 0;">食用菊のおひたし（胡麻だれ）</div> <div class="nadia-recipe-status-207685"></div> <div style="margin-bottom: 10px;width: 100%;line-height: 1.3; font-size: 14px">秋になると岩手の実家から山のように食用菊が届きます。 何度も茹でているうちにシャキシャキと美味しい茹で方を発見しました。</div> <div style="display:-webkit-box; display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;"> <a href="https://go.oceans-nadia.com/r.php?link=%2Fapp%3Frurl%3Dhttps%3A%2F%2Foceans-nadia.com%2Fuser%2F11247%2Frecipe%2F207685%26utm_source=site%26utm_medium=r_card%26utm_campaign=r_card_app_dl" target="_blank" style="display:inline-block;color:#ff921c;text-align:right;text-decoration:none;font-weight:bold;font-size:13px;">アプリで開く</a> <a href="https://oceans-nadia.com/user/11247/recipe/207685?utm_source=site&utm_medium=r_card&utm_campaign=recipe_card_11247_207685" target="_blank" style="display:inline-block;color:#ff921c;text-align:right;text-decoration:none;font-weight:bold;font-size:13px;">このレシピをNadiaで見る</a> </div> </div>

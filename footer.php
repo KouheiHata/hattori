@@ -59,9 +59,9 @@
 		<li><a href="/daisy/">食用菊</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li>育て方</li>
-				<li>おいしいレシピ</li>
-				<li>&nbsp;</li>
+				<li><a href="daisy/#daisy-desc">食用菊って？</a></li>
+				<li><a href="daisy/#daisy-list">育て方</a></li>
+				<li><a href="daisy/#recipe">おいしいレシピ</a></li>
 				</div>
 			</ul>
 		</ul>

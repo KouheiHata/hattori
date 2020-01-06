@@ -98,6 +98,7 @@ window.onload = entryChange;
 			</div>	<!-- row -->
 		</div>		<!-- nasu -->
 
+
     <div class="row">
         <div class="col-lg-12 col-md12 col-sm-12">
 	        <h4 class="section_h" id="akiyasai">秋野菜苗</h4>
@@ -134,6 +135,7 @@ window.onload = entryChange;
 	        </div>
 			</div>	<!-- row -->
 		</div>		<!-- daikon -->
+</div>
 
 <section class="section" style="margin-top: 50px;">
     <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>

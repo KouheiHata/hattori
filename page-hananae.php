@@ -161,7 +161,7 @@ Template Name: hananae
                             </thead>
                         </table>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 px-5">
+                    <div class="col-lg-4 col-md-4 col-sm-12 px-5 pb-5">
                         <img src="<?php echo esc_url( get_theme_file_uri('images/cushionmom.jpg') ); ?>" alt="クッションマム" class="f-img">
                         <table class="table f-table">
                             <thead class="f-name">

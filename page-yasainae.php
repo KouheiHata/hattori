@@ -137,13 +137,14 @@ window.onload = entryChange;
 		</div>		<!-- daikon -->
 </div>
 
-<section class="section" style="margin-top: 50px;">
-    <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
-    <a class="d_g_pdf" href="#">2019年度苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
-</section>
-
 <div class="container">
     <div class="row">
+
+	<section class="section" style="margin-top: 50px;">
+	    <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
+	    <a class="d_g_pdf" href="#">2019年度苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
+	</section>
+
     </div>
 </div>
 

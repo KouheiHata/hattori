@@ -12,7 +12,7 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/about/">紹介記事</a></li>
+		<li><a href="/about-2/">紹介記事</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
 				<li><a href="/about-taiken/">寄せ植え体験</a></li>
@@ -59,9 +59,9 @@
 		<li><a href="/daisy/">食用菊</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li>育て方</li>
+				<li>食用菊って？</li>
+				<li>取り扱い食用菊</li>
 				<li>おいしいレシピ</li>
-				<li>&nbsp;</li>
 				</div>
 			</ul>
 		</ul>

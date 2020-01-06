@@ -6,7 +6,7 @@ Template Name: daisy
 
 
 <?php get_header(); ?>
-<img src="<?php echo esc_url( get_theme_file_uri('images/main-img6.jpg') ); ?>" alt="食用菊">
+<img src="<?php echo esc_url( get_theme_file_uri('images/main-img6.jpg') ); ?>" alt="意外と知られていない食用菊の魅力を紹介します！">
 <div class="container pt-5">
    <div class="row">
     <h4 class="section_h" id="daisy-desc">食用菊って？</h4>

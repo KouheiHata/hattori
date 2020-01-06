@@ -7,7 +7,7 @@ Template Name: hananae
 
 <?php get_header(); ?>
 
-<img src="<?php echo esc_url( get_theme_file_uri('images/main-img4.jpg') ); ?>" alt="">
+<img src="<?php echo esc_url( get_theme_file_uri('images/main-img4.jpg') ); ?>" alt="季節ごとの取り扱い花苗を紹介します！">
 
 <h4 class="section_h" id="flow-sap">花苗</h4>
 <div class="container">

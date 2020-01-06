@@ -26,7 +26,7 @@
 		<li><a href="/yasainae/">野菜苗</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li>春野菜苗</li>
+				<li><a href="yasainae?#st_haru">春野菜苗</a></li>
 				<li>秋野菜苗</li>
 				<li>玉ねぎ苗</li>
 				</div>
@@ -48,8 +48,8 @@
 		<li><a href="/yasai-2/">野菜</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li>今月の野菜</li>
-				<li>直売先</li>
+				<li><a href="yasai-2/#sell">直売先</a></li>
+				<li><a href="yasai-2/#this_m">今月の野菜</a></li>
 				<li>&nbsp;</li>
 				</div>
 			</ul>

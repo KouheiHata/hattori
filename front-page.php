@@ -7,7 +7,7 @@ Template Name: フロントページ
 
 <?php get_header(); ?>
 
-<img class="main-img" src="<?php echo esc_url( get_theme_file_uri('images/main-img.jpg') ); ?>" alt="">
+<img class="main-img" src="<?php echo esc_url( get_theme_file_uri('images/main-img.jpg') ); ?>" alt="苗のはっとりは福井県越前市にある、ハウス直販の野菜・花苗の専門店です。育てやすく元気な苗を販売しております。また、苗の販売だけでなく、育て方のアドバイスなども行っています。">
 
 <div class="container-fluid top_back">
 <div class="row">

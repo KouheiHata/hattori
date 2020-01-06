@@ -35,7 +35,7 @@ function entryChange(){
 window.onload = entryChange;
 </script>
 
-<img src="<?php echo esc_url( get_theme_file_uri('images/main-img3.jpg') ); ?>" alt="">
+<img src="<?php echo esc_url( get_theme_file_uri('images/main-img3.jpg') ); ?>" alt="季節ごとの取り扱い野菜苗を紹介します！">
 
 <div class="container">
     <div class="row">

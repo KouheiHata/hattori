@@ -6,7 +6,7 @@ Template Name: contact
 
 
 <?php get_header(); ?>
-<img src="<?php echo esc_url( get_theme_file_uri('images/main-img7.jpg') ); ?>" alt="">
+<img src="<?php echo esc_url( get_theme_file_uri('images/main-img7.jpg') ); ?>" alt="ご不明な点があればお気軽にお問い合わせ下さい">
 <div class="container">
     <div class="row">
         <h4 class="section_h">お問い合わせ</h4>

@@ -37,9 +37,9 @@
 		<li><a href="/hananae/">花苗</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li>花苗</li>
-				<li>切花苗</li>
-				<li>菊苗</li>
+				<li><a href="hananae/#flow-sap">花苗</a></li>
+				<li><a href="hananae/#cut-sap">切花苗</a></li>
+				<li><a href="hananae/#daisy-sap">菊苗</a></li>
 				</div>
 			</ul>
 		</ul>

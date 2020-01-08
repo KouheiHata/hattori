@@ -20,7 +20,7 @@
 			$wp_query->the_post(); ?>
 
         <!-- ループする部分 -->
-<div class="col-lg-12 col-md-12 col-sm-12 p-5">
+<div class="col-lg-12 col-md-12 col-sm-12 pt-5 px-5">
  <img class="about-note" src="<?php echo esc_url( get_theme_file_uri('images/about-note01.png') ); ?>" alt="">
   <div class="container about-wrap">
       <div class="row">

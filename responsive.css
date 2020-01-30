@@ -359,8 +359,25 @@
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 767.98px) {
-
+@media screen and (max-width: 768px) {
+    .note-wrap {
+        padding: 0;
+    }
+    .about-note {
+        margin: 20px 0 30px 0;
+    }
+    .about-img {
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+    .note_h {
+        width: 95%;
+        margin-left: 5%;
+        text-indent: 1rem;
+    }
+    .note-content p {
+        margin-left: 10%;
+    }
 }
 
 @media screen and (max-width: 634px) {

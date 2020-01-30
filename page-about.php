@@ -26,14 +26,14 @@ Template Name: About
 			$wp_query->the_post(); ?>
 
         <!-- ループする部分 -->
-<div class="col-lg-12 col-md-12 col-sm-12 pt-5 px-5">
+<div class="note-wrap col-lg-12 col-md-12 col-sm-12">
  <img class="about-note" src="<?php echo esc_url( get_theme_file_uri('images/about-note01.png') ); ?>" alt="">
-  <div class="container about-wrap">
+  <div class="container-fluid px-0 about-wrap">
       <div class="row">
-          <div class="about-img col-lg-4 col-md-12 col-sm-12">
+          <div class="about-img col-lg-5 col-md-12 col-sm-12">
               <?php echo the_post_thumbnail('large') ?>
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 p-3">
+          <div class="col-lg-7 col-md-12 col-sm-12 p-3">
                  <h4 class="note_h"><?php the_title(); ?></h4>
                     <div class="note-content"><?php the_content(); ?><p>カテゴリー：<?php the_category('/'); ?></p></div>
           </div>

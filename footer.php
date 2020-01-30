@@ -1,7 +1,7 @@
 <footer class="Footer">
 
 <div class="container-fluid footer_back">
-	<div class="row lh20" style="padding-top: 100px;">
+	<div class="footer_row row lh20" style="">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-inline res_footer">
 			<h3 class="s-title">サイトマップ</h3>
 		</div>
@@ -78,9 +78,9 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-3">
 			<h5>
 			<ul class="ul_address text-center">
-				<li class="d-inline">〒915-0056&nbsp;越前市向新保町32-32</li>
-				<li class="d-inline"><i class="fas fa-fax"></i>&nbsp;0778-22-1987</li>
-				<li class="d-inline"><i class="fas fa-mobile-alt"></i>&nbsp;090-8265-1135</li>
+				<li class="">〒915-0056&nbsp;越前市向新保町32-32</li>
+				<li class=""><i class="fas fa-fax"></i>&nbsp;0778-22-1987</li>
+				<li class=""><i class="fas fa-mobile-alt"></i>&nbsp;090-8265-1135</li>
 			</ul>
 			</h5>
 		</div>

@@ -872,6 +872,10 @@ html {
 	background-size: cover;
 }
 
+.footer_row {
+    padding-top: 100px;
+}
+
 .res_footer {
 	padding-top: 20px;
 }
@@ -940,6 +944,12 @@ html {
     background-color:#ffffff;
     border-radius:10px;
     width: 400px;
+}
+.btn_naetyumon:hover {
+    color: rgba(140, 198, 63, 0.7);
+}
+.ul_address li {
+    display: inline-block;
 }
 
 .ul_address li:before {

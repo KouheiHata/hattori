@@ -436,13 +436,23 @@ button, input, select, textarea {
     font-size: 14pt;
     font-weight: bold;
     line-height: 2rem;
+    display: inline;
+	float: left;
 }
+
 .header_p:first-child {
     margin-top: 10px;
 }
+
 .header_table {
-	margin: 0 auto;
+	margin-left: 7%;
+	float: left;
 }
+
+.header_table2 {
+	display: none;
+}
+
 .header_td {
     color: #42210b;
     font-size: 14pt;
@@ -462,9 +472,16 @@ button, input, select, textarea {
 }
 
 .header-logo {
-    position: relative;
-    right: 10%;
+	width: 35%;
+	margin: 0px 100px;
+	float: left;
+	display: inline;
 }
+
+.header-logo_mobile {
+	display: none;
+}
+
 .main-img {
     width: 100%;
     margin: 0;
@@ -565,6 +582,11 @@ nav ul li {
     height: 25px;
     overflow: hidden;
 	text-align: center;
+}
+
+/* ハンバーガーメニュー */
+.navi-btn, .navi-menu {
+	display: none;
 }
 
 /* -------------------------------------------------------------------------------- */

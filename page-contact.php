@@ -15,7 +15,7 @@ Template Name: contact
             なお、お急ぎの場合はお電話（0778-22-1987 もしくは 090-8265-1135）下さい。</p>
     </div>
 </div>
-<?php echo do_shortcode('[contact-form-7 id="2178" title="コンタクトフォーム 1"]'); ?>
+<?php echo do_shortcode('[contact-form-7 id="40" title="苗のはっとり_お問い合わせ"]'); ?>
 
 
 <?php get_footer(); ?>

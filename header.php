@@ -44,20 +44,42 @@ wp_deregister_script('jquery');
 <header class="header">
     <div class="container-fluid">
 	    <div class="row">
-           <div class="col-lg-4 col-md-4 col-sm-12 order-lg-2 order-md-2">
-                <div style="margin: 0 auto;"><img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ"></div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 order-lg-1 order-md-1">
-                <p class="header_p">
+            <div class="col-lg-12 col-md-12 col-sm-12">
 				<table border="0" class="header_table">
 				<tr><td><div class="header_td">〒915-0056<br />
                 越前市向新保町32-32</div></td></tr>
 				</table>
-				</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 order-lg-3 order-md-3">
+
+				<table border="0" class="header_table2">
+				<tr><td><div class="header_td"><i class="fas fa-fax"></i>0778-22-1987<br />
+                <i class="fas fa-mobile-alt"></i>090-8265-1135</div></td></tr>
+				</table>
+
+                <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ">
+
+				<div style="text-align: center;">
+                <img class="header-logo_mobile" src="<?php echo esc_url( get_theme_file_uri('images/logo_mobile.png') ); ?>" alt="苗のはっとり｜ロゴ">
+				</div>
+
                 <p class="header_p"><i class="fas fa-fax"></i>0778-22-1987</p>
                 <p class="header_p"><i class="fas fa-mobile-alt"></i>090-8265-1135</p>
+
+				<div class="navi-btn" id="navi-btn">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				  <p>MENU</p>
+				</div>
+				<div class="navi-menu" id="navi-menu">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">紹介記事</a></li>
+					<li><a href="#">野菜苗</a></li>
+					<li><a href="#">花苗</a></li>
+					<li><a href="#">野菜</a></li>
+					<li><a href="#">食用菊</a></li>
+					<li><a href="#">お問い合わせ</a></li>
+				</div>
+
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 px-0 order-sm-4">
 		        <div class="nav-wrapper">

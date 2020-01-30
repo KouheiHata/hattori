@@ -71,13 +71,13 @@ wp_deregister_script('jquery');
 				  <p>MENU</p>
 				</div>
 				<div class="navi-menu" id="navi-menu">
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">紹介記事</a></li>
-					<li><a href="#">野菜苗</a></li>
-					<li><a href="#">花苗</a></li>
-					<li><a href="#">野菜</a></li>
-					<li><a href="#">食用菊</a></li>
-					<li><a href="#">お問い合わせ</a></li>
+					<li><a href="/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_home.png') ); ?>" width="34px">&nbsp;HOME</a></li>
+					<li><a href="/about-2/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_pen.png') ); ?>" width="34px">&nbsp;紹介記事</a></li>
+					<li><a href="/yasainae/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasainae.png') ); ?>" width="34px">&nbsp;野菜苗</a></li>
+					<li><a href="/hananae/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_hananae.png') ); ?>" width="34px">&nbsp;花苗</a></li>
+					<li><a href="/yasai-2/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasai.png') ); ?>" width="34px">&nbsp;野菜</a></li>
+					<li><a href="/daisy/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_kiku.png') ); ?>" width="34px">&nbsp;食用菊</a></li>
+					<li><a href="/contact/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_contact.png') ); ?>" width="34px">&nbsp;お問い合わせ</a></li>
 				</div>
 
             </div>

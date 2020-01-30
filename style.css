@@ -585,7 +585,7 @@ nav ul li {
 }
 
 /* ハンバーガーメニュー */
-.navi-btn, .navi-menu {
+.navi-btn, .navi-menu, .navi-menu li {
 	display: none;
 }
 

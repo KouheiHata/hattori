@@ -181,7 +181,7 @@
 	}
 
 	.navi-menu {
-	  top: 120px;
+	  top: 160px;
 	  left: 0px;
 	  display: none;
 	  background: #8cc63f;
@@ -192,13 +192,14 @@
 	}
 
 	.navi-menu li {
+	  display: block;
 	  list-style-type: none;
 	}
 
 	.navi-menu li a {
 	  display: block;
 	  color: #42210b;
-	  font-size: 20px;
+	  font-size: 24px;
 	  text-decoration: none;
 	  text-align: center;
 	  padding: 30px 30px;

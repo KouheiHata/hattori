@@ -715,6 +715,8 @@ nav ul li {
     padding: 4px 15px 10px 15px;
     background: #8cc63f;
     border-radius: 4px;
+    line-height: 2;
+
 }
 .d_g_pdf:hover {
     color: #fff;
@@ -784,30 +786,28 @@ nav ul li {
 }
 
 /*-- 野菜苗ページ部分 --*/
-.dgloup {
-    position: relative;
-    left: 20%;
-}
 .list_title {
     color: #42210b;
     font-size:24px;
     font-weight: 600;
-    margin-right: 20px;
-    float: left;
+    margin-right: 10px;
+	display: inline;
 }
 .d-list {
     width: 200px;
     padding: 2px;
-    margin-right: 50px;
+	margin-top: 10px;
+    margin-right: 25px;
     border-radius: 4px;
     box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.2);
-    float: left;
+}
+.yasainae_select {
+	display: inline;
 }
 .b-table {
     background: #fff;
     border: solid 1px #8cc63f;
-	position: relative;
-	left: -48px;
+	width: 90%;
 }
 .b-table tr td, .b-table tr th {
     border: solid 1px #8cc63f;
@@ -982,16 +982,16 @@ html {
 
 .btn_naetyumon {
     margin-top: 1.5rem;
-	white-space:nowrap;
     font-size:16pt;
     text-decoration:none;
     display:block;
+    line-height: 1.5;
     text-align:center;
     padding:5px 10px 5px 10px;
     color:#8CC63F;
     background-color:#ffffff;
     border-radius:10px;
-    width: 400px;
+    width: 80%;
 }
 .btn_naetyumon:hover {
     color: rgba(140, 198, 63, 0.7);

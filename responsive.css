@@ -416,6 +416,13 @@
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
 
+@media screen and (max-width: 991px) {
+	.yasainae_select {
+		display: block;
+		padding: 20px 0px;
+	}
+}
+
 @media screen and (max-width: 768px) {
     .note-wrap {
         padding: 0;
@@ -479,7 +486,6 @@
         padding-top: 0;
     }
     .btn_naetyumon {
-        width: 500px;
         margin: 0 auto 1rem auto;
     }
     .ul_address li:first-child {

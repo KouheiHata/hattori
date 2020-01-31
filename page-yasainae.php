@@ -44,18 +44,22 @@ window.onload = entryChange;
         品名を選択するとご希望の苗が一覧表示されます。<br>
         ご注文はページ下記の注文票をダウンロードください
     </p>
-    <div class="dgloup">
-        <p class="list_title">春野菜</p>
+	<div style="margin: 0 auto;">
+	<div class="yasainae_select">
+        <div class="list_title">春野菜</div>
         <select name="spring" class="d-list" id="st_haru" onchange="entryChange();">
             <option value="0" selected>選択してください</option>
             <option value="nasu">なす</option>
         </select>
-        <p class="list_title">秋野菜</p>
+	</div>
+	<div class="yasainae_select">
+        <div class="list_title">秋野菜</div>
         <select name="autumn" class="d-list" id="st_aki" onchange="entryChange();">
             <option value="0" selected>選択してください</option>
             <option value="daikon">大根</option>
         </select>
-    </div>
+	</div>
+	</div> <!-- margin:0 auto -->
 </section>
     </div> <!-- row -->
 </div>     <!-- container -->
@@ -74,7 +78,7 @@ window.onload = entryChange;
 	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
 	        <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="なす">
 			</div>
-	        <div class="col-lg-8 col-md-8 col-sm-12 px-5">
+	        <div class="col-lg-8 col-md-8 col-sm-12">
 	            <table class="table b-table">
 	               <thead><tr>
 	                   <th class="b-cell">品名</th>
@@ -112,7 +116,7 @@ window.onload = entryChange;
 	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
             <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="大根">
 			</div>
-	        <div class="col-lg-8 col-md-8 col-sm-12 px-5">
+	        <div class="col-lg-8 col-md-8 col-sm-12">
             <table class="table b-table">
                <thead><tr>
                    <th class="b-cell">品名</th>

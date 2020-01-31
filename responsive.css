@@ -347,8 +347,64 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1000px) {
+	.sc_board {
+		width: 98%;
+	}
 
+	.sc_tuki {
+		font-size: 40px;
+	}
+
+	.sc_tuki2 {
+		font-size: 20px;
+	}
+
+	.sc_tuki_size {
+		font-size: 0.5em;
+		height: 80px;
+		width: 80px;
+	}
+
+	.top_border_y {
+		height: 80px;
+	}
+
+	.sc_detail_size {
+		padding-top: 0.3rem;
+		padding-left:10px;
+		height: 80px;
+		width: 70%;
+	}
+
+/* イベントが３つある月 */
+	.sc_tuki_size_3 {
+		height: 260px;
+		width: 80px;
+	}
+
+	.top_border_y_3 {
+		height: 260px;
+		width: 0px;
+	}
+
+	.sc_detail_size_3 {
+		height: 260px;
+		width: 70%;
+		padding-left:10px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.sc_detail_size {
+		margin-left: 100px;
+		padding-left: 10px;
+	}
+
+	.sc_detail_size_3 {
+		margin-left: 100px;
+		padding-left: 10px;
+	}
 }
 
 /* -------------------------------------------------------------------------------- */

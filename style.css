@@ -694,7 +694,7 @@ nav ul li {
     margin-bottom: 3rem;
 }
 .section_h {
-    width: 90%;
+    width: 100%;
     margin: 5rem auto 0;
     color: #42210b;
     padding: 10px;
@@ -823,8 +823,7 @@ nav ul li {
     border-bottom: solid 3px #8cc63f;
 }
 .f-img {
-    text-align: center;
-	height: 180px;
+    
 }
 
 .f-table {

@@ -415,6 +415,9 @@
 /* -------------------------------------------------------------------------------- */
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width:1024px) {
+    /*ページ全体*/
+}
 
 @media screen and (max-width: 991px) {
 	.yasainae_select {
@@ -429,6 +432,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    /*サイト全体*/
+    .section {
+        display: none;
+    }
+    
+    /*紹介記事ページ*/
     .note-wrap {
         padding: 0;
     }
@@ -447,7 +456,6 @@
     .note-content p {
         margin-left: 10%;
     }
-
 /*---- 食用菊ページ ----*/
 	.desc-img {
 	    margin: 2rem 0;
@@ -461,6 +469,8 @@
 	.desc-title {
 	    position: static;
 	}
+    /*花苗ページ*/
+    
 }
 
 @media screen and (max-width: 634px) {

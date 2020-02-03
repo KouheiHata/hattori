@@ -61,7 +61,7 @@ wp_deregister_script('jquery');
                 <img class="header-logo_mobile" src="<?php echo esc_url( get_theme_file_uri('images/logo_mobile.png') ); ?>" alt="苗のはっとり｜ロゴ">
 				</div>
 
-                <p class="header_p"><i class="fas fa-fax"></i>0778-22-1987</p>
+                <p class="header_p"><i class="fas fa-fax"></i>0778-22-1987</p><br />
                 <p class="header_p"><i class="fas fa-mobile-alt"></i>090-8265-1135</p>
 
 				<div class="navi-btn" id="navi-btn">

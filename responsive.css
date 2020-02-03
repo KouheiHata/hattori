@@ -421,6 +421,11 @@
 		display: block;
 		padding: 20px 0px;
 	}
+
+/*---- 食用菊ページ ----*/
+	.desc-p {
+		margin: 2rem 3rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -442,6 +447,20 @@
     .note-content p {
         margin-left: 10%;
     }
+
+/*---- 食用菊ページ ----*/
+	.desc-img {
+	    margin: 2rem 0;
+		width: 60%;
+	}
+
+	.desc-img2 {
+		
+	}
+
+	.desc-title {
+	    position: static;
+	}
 }
 
 @media screen and (max-width: 634px) {

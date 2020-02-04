@@ -29,7 +29,7 @@ Template Name: daisy
         <p class="desc-p">明るい黄色の食用菊で、延命楽より小ぶりの食用菊です。<br>食感は延命楽より柔らかめです。</p>
     </div>
     
-    <section class="section d-lg-block d-md-block d-sm-none d-none">
+    <section class="section">
     <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
     <a class="d_g_pdf" href="#">2019年度苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
     </section>

@@ -728,7 +728,7 @@ nav ul li {
 
 .card-title {
     color: #f08d38;
-    width: 260px;
+    width: 100%;
     padding: 4px 0;
     text-align: center;
     background: #fff;
@@ -855,18 +855,21 @@ nav ul li {
 
 /*---- 野菜ページ部分 ----*/
 .card-p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    line-height: 1.8rem;
 }
 
 .fa-phone::after {
     content: '';
     margin-right: 4px;
 }
-.alignnone {
-    width: 260px;
-    margin-bottom:1.5rem;
+.yasai-img p img {
+    display: block;
+    max-height: 200px;
+    margin: 0 1.5rem auto;
 }
+
 /*---- 食用菊ページ ----*/
 
 .desc-img {
@@ -879,13 +882,12 @@ nav ul li {
 
 .desc-title {
     width: 260px;
+    margin: 0 auto;
     text-align: center;
-    margin: 2rem 4rem;
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
     color: #f08d38;
     background: #fff;
-    margin: 0 auto;
 }
 
 .desc-p {
@@ -1048,6 +1050,7 @@ html {
 
 label {
     font-size: 18px;
+    margin: 0 auto 2rem;
     line-height: 2rem;
 }
 
@@ -1153,8 +1156,8 @@ div.wpcf7 input.wpcf7-submit:hover {
 /* -------------------------------------------------------------------------------- */
 
 .gmap {
-    width:260px;
-    height: 260px;
+    width:100%;
+    height: 350px;
     margin: 2rem 0;
 }
 

@@ -15,14 +15,14 @@ Template Name: contact
             なお、お急ぎの場合はお電話（0778-22-1987 もしくは 090-8265-1135）下さい。</p>
     </div>
 </div>
-<?php echo do_shortcode('[contact-form-7 id="40" title="苗のはっとり_お問い合わせ"]'); ?>
+<?php echo do_shortcode('[contact-form-7 id="2178" title="苗のはっとり_お問い合わせ"]'); ?>
 
 
 <?php get_footer(); ?>
 <!-- コンタクトフォーム下書き　＊contact_form_7へ記入する
 <div class="container">
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
             <label> お名前 (必須)
                 [text* your-name] </label>
             <label> 会社名
@@ -32,7 +32,7 @@ Template Name: contact
             <label> 電話番号
                 [tel tel-661 placeholder "0000-00-0000"]</label>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
             <label> お問い合わせ内容
                 [textarea your-message] </label>
             *の付いた項目は必須です。

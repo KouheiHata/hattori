@@ -437,7 +437,6 @@ button, input, select, textarea {
     font-weight: bold;
     line-height: 2rem;
     display: inline;
-	float: left;
 }
 
 .header_p:first-child {
@@ -786,6 +785,14 @@ nav ul li {
 }
 
 /*-- 野菜苗ページ部分 --*/
+.section-yasainae {
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+    border-radius: 6px;
+}
 .list_title {
     color: #42210b;
     font-size:24px;
@@ -867,8 +874,10 @@ nav ul li {
 
 .desc-img {
     margin: 2rem 4rem;
-    position: relative;
-    left:10%;
+}
+
+ .desc-img2 {
+    margin: 2rem 0;
 }
 
 .desc-title {
@@ -879,8 +888,7 @@ nav ul li {
     padding-bottom: 0.5rem;
     color: #f08d38;
     background: #fff;
-    position: relative;
-    left: 3rem;
+    margin: 0 auto;
 }
 
 .desc-p {

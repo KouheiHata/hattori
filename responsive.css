@@ -416,7 +416,14 @@
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width:1024px) {
-    /*ページ全体*/
+    /*サイト全体*/
+    /*野菜ページ*/
+    .yasai-img p img {
+        display: block;
+        margin: 0 auto;
+        height: 200px;
+    }
+    /*お問い合わせページ*/
 }
 
 @media screen and (max-width: 991px) {
@@ -452,6 +459,17 @@
         margin-left: 10%;
     }
     /*花苗ページ*/
+    /*野菜ページ*/
+    .card-p {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+    .gmap {
+        height: 260px;
+    }
+    .yasai-img p img {
+        margin: 0;
+    }
     
 }
 

@@ -424,6 +424,13 @@
         height: 200px;
     }
     /*お問い合わせページ*/
+    .contact, .contact2 {
+        position: relative;
+        left: 15%;
+    }
+    div.wpcf7 input.wpcf7-submit {
+        margin: 1rem 0 0;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -433,6 +440,9 @@
 	}
 
 /*---- 食用菊ページ ----*/
+    .desc-img {
+        margin: 2rem;
+    }
 	.desc-p {
 		margin: 2rem 3rem;
 	}
@@ -474,6 +484,7 @@
 	}
 
 	.desc-title {
+        width: 100%;
 	    position: static;
 	}
     /*花苗ページ*/
@@ -487,6 +498,13 @@
     }
     .yasai-img p img {
         margin: 0;
+    }
+    .desc-p {
+        margin: 1rem;
+    }
+    /*お問い合わせ*/
+    .contact, .contact2 {
+        position: static;
     }
     
 }

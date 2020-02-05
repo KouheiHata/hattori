@@ -882,13 +882,12 @@ nav ul li {
 
 .desc-title {
     width: 260px;
+    margin: 0 auto;
     text-align: center;
-    margin: 2rem 4rem;
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
     color: #f08d38;
     background: #fff;
-    margin: 0 auto;
 }
 
 .desc-p {
@@ -1051,6 +1050,7 @@ html {
 
 label {
     font-size: 18px;
+    margin: 0 auto 2rem;
     line-height: 2rem;
 }
 

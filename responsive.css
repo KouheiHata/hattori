@@ -38,7 +38,7 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-
+    
 }
 
 @media screen and (min-width:1200px) {}
@@ -417,6 +417,7 @@
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width:1024px) {
     /*サイト全体*/
+
     /*野菜ページ*/
     .yasai-img p img {
         display: block;
@@ -424,24 +425,46 @@
         height: 200px;
     }
     /*お問い合わせページ*/
+    input {
+        max-width: 90%;
+    }
     .contact, .contact2 {
         position: relative;
         left: 15%;
     }
+
     div.wpcf7 input.wpcf7-submit {
         margin: 1rem 0 0;
     }
 }
+@media screen and (min-width:992px) {
+    .res_img {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 991px) {
+    /*汎用*/
+    .pc_img {
+        display: none;
+    }
+    .res_img {
+        display: block;
+    }
+    /*野菜苗*/
 	.yasainae_select {
 		display: block;
 		padding: 20px 0px;
 	}
+    /*花苗ページ*/
+    .f-img {
+        max-width: 100%;
+    }
 
 /*---- 食用菊ページ ----*/
     .desc-img {
-        margin: 2rem;
+        max-width: 60%;
+        margin: 2rem 0;
     }
 	.desc-p {
 		margin: 2rem 3rem;
@@ -453,7 +476,6 @@
     .section {
         display: none;
     }
-    
     /*紹介記事ページ*/
     .note-wrap {
         padding: 0;
@@ -488,6 +510,9 @@
 	    position: static;
 	}
     /*花苗ページ*/
+    .f-img {
+        max-width: 100%;
+    }
     /*野菜ページ*/
     .card-p {
         font-size: 16px;

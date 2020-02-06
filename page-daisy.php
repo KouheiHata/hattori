@@ -10,10 +10,10 @@ Template Name: daisy
 <div class="container pt-5">
    <div class="row">
     <h4 class="section_h" id="daisy-desc">食用菊って？</h4>
-    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
         <img class="desc-img" style="box-shadow: 5px 5px 5px rgba(0,0,0,0.6);" src="<?php echo esc_url( get_theme_file_uri('images/eat-daigy.jpg') ); ?>" alt="食用菊｜黄">
     </div>
-    <div class="col-lg-8 col-md-8 col-sm-12">
+    <div class="col-lg-8 col-md-12 col-sm-12">
         <p class="desc-p">食用菊はその名の通り「食用に栽培されている菊」のことで観賞用の菊と比べて苦みが少なく、甘みがあるのが特徴です。<br>
         刺身の盛り合わせに食用菊が添えられているのを見たことがある方は多いと思いますが、食用菊はそれだけでなく、おひたしや和え物・酢の物・天ぷらなど様々な料理のレパートリーがあります</p>
     </div>

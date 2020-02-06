@@ -7,7 +7,8 @@ Template Name: yasai
 
 <?php get_header(); ?>
 
-<img src="<?php echo esc_url( get_theme_file_uri('images/main-img5.jpg') ); ?>" alt="苗のはっとりでは苗だけでなく育てた野菜も販売しています">
+<img class="pc_img" src="<?php echo esc_url( get_theme_file_uri('images/main-img5.jpg') ); ?>" alt="苗のはっとりでは苗だけでなく育てた野菜も販売しています">
+<img class="res_img" src="<?php echo esc_url( get_theme_file_uri('images/res_main-img5.jpg') ); ?>" alt="苗のはっとりでは苗だけでなく育てた野菜も販売しています">
 
 <div class="container mt-5">
     <div class="row justify-content-between">

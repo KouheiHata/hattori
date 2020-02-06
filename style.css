@@ -831,7 +831,10 @@ nav ul li {
     border-bottom: solid 3px #8cc63f;
 }
 .f-img {
-    
+    display: block;
+    max-width: 300px;
+    max-height: 200px;
+    margin: 0 auto;
 }
 
 .f-table {
@@ -1001,6 +1004,11 @@ html {
     background-color:#ffffff;
     border-radius:10px;
     width: 80%;
+}
+@media screen and (min-width: 1024px) {
+    .btn_naetyumon {
+        width: 50%;
+    }
 }
 .btn_naetyumon:hover {
     color: rgba(140, 198, 63, 0.7);

@@ -212,6 +212,18 @@
 
 }
 
+@media screen and (max-width: 912px) {
+	.header-logo_mobile {
+		top: 20px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.header-logo_mobile {
+		top: 30px;
+	}
+}
+
 @media screen and (max-width: 575.98px) {
 	.header_td {
 		font-size: 10pt;
@@ -228,9 +240,8 @@
 	}
 
 	.header-logo_mobile {
-		display: inline;
-		float: left;
 		width: 25%;
+		top: 70px;
 	}
 }
 

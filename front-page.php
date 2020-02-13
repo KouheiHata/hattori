@@ -28,7 +28,7 @@ Template Name: フロントページ
 
 		<div class="top_border_x sc_detail_size lh15" style="border-width: 0px 0px 3px 0px;">
 			<span style="color: #ed1c24;">■</span>野菜作り交流会（要予約）<br />
-			3/15　10:00～
+			3/13　10:00～
 		</div>
 
 
@@ -91,9 +91,17 @@ Template Name: フロントページ
 		<div class="top_border_y float-left m-0 p-0" style="border-width: 0px 0px 0px 3px;"></div>
 
 		<div class="top_border_x sc_detail_size lh15" style="border-width: 0px 0px 3px 0px;">
-			<span style="color: #8cc63f;">■</span>玉ねぎ苗の販売<br />
-			11/1～11/10<br />
-			<i class="far fa-file-pdf"></i><a href="#">注文票ダウンロード</a>
+			<div class="d-block float-left pr-3">
+				<span style="color: #8cc63f;">■</span>玉ねぎ苗の販売<br />
+				　11/1～11/10<br />
+				<i class="far fa-file-pdf"></i><a href="#">注文票ダウンロード</a>
+			</div>
+
+			<div class="d-block float-left">
+				<span style="color: #ed1c24;">■</span>野菜作りの交流会（要予約）<br />
+				　11/21 10:00～<br />
+			</div>
+
 		</div>
 
 

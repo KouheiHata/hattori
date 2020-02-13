@@ -28,9 +28,6 @@ Template Name: hananae
                              <tr>
                                  <td>色：赤　紫　白</td>
                              </tr>
-                             <tr>
-                                 <td>－－円</td>
-                             </tr>
                          </tbody>
                      </table>
                  </div>
@@ -47,9 +44,6 @@ Template Name: hananae
                              <tr>
                                  <td>色：－－</td>
                              </tr>
-                             <tr>
-                                 <td>ーー円</td>
-                             </tr>
                          </tbody>
                      </table>
                  </div>
@@ -65,9 +59,6 @@ Template Name: hananae
                          <tbody>
                              <tr>
                                  <td>色：－－</td>
-                             </tr>
-                             <tr>
-                                 <td>－－円</td>
                              </tr>
                          </tbody>
                      </table>
@@ -92,7 +83,6 @@ Template Name: hananae
                     <tr>
                         <td>色：赤　白　黄　桃</td>
                     </tr>
-                    <tr><td>－－円</td></tr>
                 </tbody>
             </tr>
         </thead>
@@ -108,9 +98,6 @@ Template Name: hananae
                     <tr>
                         <td>色：赤　白　黄　紫</td>
                     </tr>
-                    <tr>
-                        <td>－－円</td>
-                    </tr>
                 </tbody>
             </tr>
         </thead>
@@ -125,9 +112,6 @@ Template Name: hananae
                 <tbody>
                     <tr>
                         <td>色：－－</td>
-                    </tr>
-                    <tr>
-                        <td>－－円</td>
                     </tr>
                 </tbody>
             </tr>
@@ -155,9 +139,6 @@ Template Name: hananae
                                         <tr>
                                             <td>色：－－</td>
                                         </tr>
-                                        <tr>
-                                            <td>－－円</td>
-                                        </tr>
                                     </tbody>
                                 </tr>
                             </thead>
@@ -173,9 +154,6 @@ Template Name: hananae
                                         <tr>
                                             <td>色：－－</td>
                                         </tr>
-                                        <tr>
-                                            <td>－－円</td>
-                                        </tr>
                                     </tbody>
                                 </tr>
                             </thead>
@@ -187,7 +165,7 @@ Template Name: hananae
         
         <section class="section">
     <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
-    <a class="d_g_pdf" href="#">2019年度苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
+    <a class="d_g_pdf" href="#">2019年 苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
 </section>
 
         

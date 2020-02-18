@@ -214,13 +214,13 @@
 
 @media screen and (max-width: 912px) {
 	.header-logo_mobile {
-		top: 20px;
+		top: 17px;
 	}
 }
 
 @media screen and (max-width: 680px) {
 	.header-logo_mobile {
-		top: 30px;
+		top: 34px;
 	}
 }
 

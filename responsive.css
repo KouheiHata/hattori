@@ -361,6 +361,7 @@
 @media screen and (max-width: 1000px) {
 	.sc_board {
 		width: 98%;
+		height:1060px;
 	}
 
 	.sc_tuki {
@@ -373,34 +374,34 @@
 
 	.sc_tuki_size {
 		font-size: 0.5em;
-		height: 115px;
+		height: 125px;
 		width: 80px;
 	}
 
 	.top_border_y {
-		height: 115px;
+		height: 125px;
 	}
 
 	.sc_detail_size {
 		padding-top: 0.3rem;
 		padding-left:10px;
-		height: 115px;
+		height: 125px;
 		width: 70%;
 	}
 
 /* イベントが３つある月 */
 	.sc_tuki_size_3 {
-		height: 300px;
+		height: 365px;
 		width: 80px;
 	}
 
 	.top_border_y_3 {
-		height: 300px;
+		height: 365px;
 		width: 0px;
 	}
 
 	.sc_detail_size_3 {
-		height: 300px;
+		height: 365px;
 		width: 70%;
 		padding-left:10px;
 	}

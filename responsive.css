@@ -101,7 +101,7 @@
 /* -------------------------------------------------------------------------------- */
 /*	4. Header
 /* -------------------------------------------------------------------------------- */
-@media screen and (max-width: 1093.98px) {
+@media screen and (max-width: 1145.98px) {
 	.nav-wrapper, .header_table, .header_p, .header-logo {
 		display: none;
 	}
@@ -373,36 +373,40 @@
 
 	.sc_tuki_size {
 		font-size: 0.5em;
-		height: 80px;
+		height: 115px;
 		width: 80px;
 	}
 
 	.top_border_y {
-		height: 80px;
+		height: 115px;
 	}
 
 	.sc_detail_size {
 		padding-top: 0.3rem;
 		padding-left:10px;
-		height: 80px;
+		height: 115px;
 		width: 70%;
 	}
 
 /* イベントが３つある月 */
 	.sc_tuki_size_3 {
-		height: 260px;
+		height: 300px;
 		width: 80px;
 	}
 
 	.top_border_y_3 {
-		height: 260px;
+		height: 300px;
 		width: 0px;
 	}
 
 	.sc_detail_size_3 {
-		height: 260px;
+		height: 300px;
 		width: 70%;
 		padding-left:10px;
+	}
+
+	.sc_notice {
+		font-size: 16px;
 	}
 }
 

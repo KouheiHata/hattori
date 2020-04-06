@@ -51,8 +51,8 @@ wp_deregister_script('jquery');
 				</table>
 
 				<table border="0" class="header_table2">
-				<tr><td><div class="header_td"><i class="fas fa-phone"></i><i class="fas fa-fax"></i>0778-22-1987<br />
-                <i class="fas fa-mobile-alt"></i>090-8265-1135</div></td></tr>
+				<tr><td><div class="header_td"><i class="fas fa-mobile-alt"></i>090-8265-1135<br />
+                <a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square"></i>&nbsp;公式&nbsp;facebook</a></div></td></tr>
 				</table>
 
                 <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ">
@@ -61,8 +61,8 @@ wp_deregister_script('jquery');
                 <img class="header-logo_mobile" src="<?php echo esc_url( get_theme_file_uri('images/logo_mobile.png') ); ?>" alt="苗のはっとり｜ロゴ">
 				</div>
 
-                <p class="header_p"><i class="fas fa-phone"></i><i class="fas fa-fax"></i>0778-22-1987</p><br />
-                <p class="header_p"><i class="fas fa-mobile-alt"></i>090-8265-1135</p>
+                <p class="header_p"><i class="fas fa-mobile-alt"></i>090-8265-1135</p><br />
+                <p class="header_p"><a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square"></i>&nbsp;公式&nbsp;facebook</a></p>
 
 				<div class="navi-btn" id="navi-btn">
 				  <span></span>
@@ -75,6 +75,7 @@ wp_deregister_script('jquery');
 					<li><a href="/about-2/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_pen.png') ); ?>" width="34px">&nbsp;紹介記事</a></li>
 					<li><a href="/yasainae/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasainae.png') ); ?>" width="34px">&nbsp;野菜苗</a></li>
 					<li><a href="/hananae/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_hananae.png') ); ?>" width="34px">&nbsp;花苗</a></li>
+					<li><a href="//"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_planter.png') ); ?>" width="34px">&nbsp;プランター</a></li>
 					<li><a href="/yasai-2/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasai.png') ); ?>" width="34px">&nbsp;野菜</a></li>
 					<li><a href="/daisy/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_kiku.png') ); ?>" width="34px">&nbsp;食用菊</a></li>
 					<li><a href="/contact/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_contact.png') ); ?>" width="34px">&nbsp;お問い合わせ</a></li>
@@ -96,6 +97,9 @@ wp_deregister_script('jquery');
 		                        </a></li>
 		                    <li class="nav-item text-center"><a href="/hananae/"><img src="<?php echo get_theme_file_uri('images/menu_ico_hana.png'); ?>" alt="花苗">
 		                            <p>花苗</p>
+		                        </a></li>
+		                    <li class="nav-item text-center"><a href="/planter/"><img src="<?php echo get_theme_file_uri('images/menu_ico_planter.png'); ?>" alt="プランター">
+		                            <p>プランター</p>
 		                        </a></li>
 		                    <li class="nav-item text-center"><a href="/yasai-2/"><img src="<?php echo get_theme_file_uri('images/menu_ico_yasai.png'); ?>" alt="野菜">
 		                            <p>野菜</p>

@@ -467,6 +467,18 @@
     .res_img {
         display: block;
     }
+	/* 紹介記事ページ */
+    .about-img {
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+    .about-img img {
+        margin-left: 0px;
+        width: 450px;
+    }
+    .about-note {
+        margin: 20px 0 30px 0;
+    }
     /*野菜苗*/
 	.yasainae_select {
 		display: block;
@@ -495,13 +507,6 @@
     /*紹介記事ページ*/
     .note-wrap {
         padding: 0;
-    }
-    .about-note {
-        margin: 20px 0 30px 0;
-    }
-    .about-img {
-        text-align: center;
-        margin: 0 0 10px 0;
     }
     .note_h {
         width: 95%;

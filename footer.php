@@ -80,7 +80,7 @@
 			<ul class="ul_address text-center">
 				<li class="">〒915-0056&nbsp;<br class="d-xl-none d-lg-none d-md-none d-sm-none d-xs-inline">越前市向新保町32-32</li>
 				<li class=""><i class="fas fa-fax"></i>&nbsp;0778-22-1987</li>
-				<li class=""><i class="fas fa-mobile-alt"></i>&nbsp;090-8265-1135</li>
+				<li class=""><a href="tel:09082651135" style="color: #ffffff;"><i class="fas fa-mobile-alt"></i>&nbsp;090-8265-1135</a></li>
 			</ul>
 			</h5>
 		</div>

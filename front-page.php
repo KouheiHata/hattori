@@ -113,7 +113,7 @@ Template Name: フロントページ
 			12/1～12/15<br />
 		</div>
 
-		<div class="sc_notice">毎月第２日曜日に相談会開催（要予約）&nbsp;&nbsp;お花プランター、プランター菜園について</div>
+		<div class="sc_notice">毎月第２日曜日に相談会開催（要予約）&nbsp;&nbsp;<br class="d-xl-none d-lg-none d-md-none d-sm-inline d-inline">お花プランター、プランター菜園について</div>
 
 	</div> <!-- #ffffff -->
 
@@ -125,7 +125,7 @@ Template Name: フロントページ
 
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5" style="margin-left:10px;">
 		<div style="font-size: 32px; text-align: center; padding-top: 35px; padding-bottom: 15px;">アクセス</div>
-		<div style="font-size: 18px; text-align: center;">
+		<div style="font-size: 17px; text-align: center;">
 		<img src="<?php echo get_theme_file_uri('images/line_access.png'); ?>" style="padding-bottom: 30px;"><br />
 		〒915-0056&nbsp;越前市向井新保町32-32<br />
 		<br />

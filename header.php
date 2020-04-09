@@ -52,7 +52,7 @@ wp_deregister_script('jquery');
 
 				<table border="0" class="header_table2">
 				<tr><td><div class="header_td"><a href="tel:09082651135"><i class="fas fa-mobile-alt"></i>090-8265-1135</a><br />
-                <a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square"></i>&nbsp;公式&nbsp;facebook</a></div></td></tr>
+                <a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square pl-1"></i>&nbsp;公式&nbsp;facebook</a></div></td></tr>
 				</table>
 
                 <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ">
@@ -62,7 +62,7 @@ wp_deregister_script('jquery');
 				</div>
 
                 <p class="header_p"><a href="tel:09082651135"><i class="fas fa-mobile-alt"></i>090-8265-1135</p></a><br />
-                <p class="header_p"><a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square"></i>&nbsp;公式&nbsp;facebook</a></p>
+                <p class="header_p"><a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square pl-1"></i>&nbsp;公式&nbsp;facebook</a></p>
 
 				<div class="navi-btn" id="navi-btn">
 				  <span></span>

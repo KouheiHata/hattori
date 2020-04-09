@@ -813,6 +813,8 @@ nav ul li {
     font-weight: 600;
     margin-right: 10px;
 	display: inline;
+	position: relative;
+	top: 5px;
 }
 .d-list {
     width: 200px;
@@ -838,21 +840,15 @@ nav ul li {
 }
 
 /*---- 花苗ページ部分 ----*/
-
-.flower_h{
-    margin: 2.5rem auto;
-    padding: 5px;
-    border-bottom: solid 3px #8cc63f;
-}
 .f-img {
     display: block;
-    max-width: 300px;
-    max-height: 200px;
+    max-width: 280px;
+    max-height: 280px;
     margin: 0 auto;
 }
 
 .f-table {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     border: solid 2px #8cc63f;
 }
 .f-name {

@@ -76,7 +76,7 @@ window.onload = entryChange;
 	            <h2 class="category_h">なす（ナス科）</h2>
 	        </div>
 	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
-	        <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="なす">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_nasu.png') ); ?>" width="240px" alt="なす">
 			</div>
 	        <div class="col-lg-8 col-md-8 col-sm-12">
 	            <table class="table b-table">
@@ -114,7 +114,7 @@ window.onload = entryChange;
 	        <h2 class="category_h">大根（アブラナ科）</h2>
 	        </div>
 	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
-            <img src="<?php echo esc_url( get_theme_file_uri('images/nath_03.jpg') ); ?>" alt="大根">
+            <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_nasu.png') ); ?>" width="240px" alt="大根">
 			</div>
 	        <div class="col-lg-8 col-md-8 col-sm-12">
             <table class="table b-table">

@@ -17,63 +17,103 @@ Template Name: hananae
         <div class="col-lg-12 col-md-12 col-sm-12">
          <div class="container">
              <div class="row justify-content-between">
-                 <div class="col-lg-4 col-md-4 col-sm-6">
-                     <h2 class="flower_h">４月</h2>
-                     <img class="f-img" src="<?php echo esc_url( get_theme_file_uri('images/petunia.jpg') ); ?>" alt="">
+                 <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
+                     <img class="f-img" src="<?php echo esc_url( get_theme_file_uri('images/hananae_pechunia.jpg') ); ?>" alt="">
                      <table class="table f-table">
                          <thead class="f-name">
                          <tr><th>ペチュニア</th></tr>
                          </thead>
                          <tbody>
                              <tr>
-                                 <td>色：赤　紫　白</td>
+                                 <td>４月下旬～５月中旬</td>
                              </tr>
                          </tbody>
                      </table>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-6">
-                     <h2 class="flower_h">10月</h2>
-                     <img src="<?php echo esc_url( get_theme_file_uri('images/begonia.jpg')); ?>" alt="" class="f-img">
+                 <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
+                     <img src="<?php echo esc_url( get_theme_file_uri('images/hananae_marrygold.jpg')); ?>" alt="" class="f-img">
                      <table class="table f-table">
                          <thead class="f-name">
                              <tr>
-                                 <th>ベゴニア</th>
+                                 <th>マリーゴールド</th>
                              </tr>
                          </thead>
                          <tbody>
                              <tr>
-                                 <td>色：－－</td>
+                                 <td>４月下旬～５月中旬</td>
                              </tr>
                          </tbody>
                      </table>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-6">
-                     <h2 class="flower_h">11月</h2>
-                     <img src="<?php echo esc_url( get_theme_file_uri('images/pangy.jpg') ); ?>" alt="" class="f-img">
+                 <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
+                     <img src="<?php echo esc_url( get_theme_file_uri('images/hananae_bekonia.jpg') ); ?>" alt="" class="f-img">
                      <table class="table f-table">
                          <thead class="f-name">
                              <tr>
-                                 <th>パンジー</th>
+                                 <th>ベコニア</th>
                              </tr>
                          </thead>
                          <tbody>
                              <tr>
-                                 <td>色：－－</td>
+                                 <td>５月中旬～５月下旬</td>
                              </tr>
                          </tbody>
                      </table>
                  </div>
-             </div>
-         </div>
-           </div>
+                 <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
+                     <img src="<?php echo esc_url( get_theme_file_uri('images/hananae_ba-benalong.jpg') ); ?>" alt="" class="f-img">
+                     <table class="table f-table">
+                         <thead class="f-name">
+                             <tr>
+                                 <th>バーベナロング</th>
+                             </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                                 <td>５月上旬～５月下旬</td>
+                             </tr>
+                         </tbody>
+                     </table>
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
+                     <img src="<?php echo esc_url( get_theme_file_uri('images/hananae_jiniapro.jpg') ); ?>" alt="" class="f-img">
+                     <table class="table f-table">
+                         <thead class="f-name">
+                             <tr>
+                                 <th style="font-size: 15px;">ジニアプロフュージョン</th>
+                             </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                                 <td>５月上旬～５月下旬</td>
+                             </tr>
+                         </tbody>
+                     </table>
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
+                     <img src="<?php echo esc_url( get_theme_file_uri('images/hananae_meranpojium.jpg') ); ?>" alt="" class="f-img">
+                     <table class="table f-table">
+                         <thead class="f-name">
+                             <tr>
+                                 <th>メランポジューム</th>
+                             </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                                 <td>５月上旬～５月下旬</td>
+                             </tr>
+                         </tbody>
+                     </table>
+                 </div>
+             </div> <!-- row -->
+         </div> <!-- container -->
+           </div> <!-- col-12 -->
 
 <h4 class="section_h" id="cut-sap">切花苗</h4>
 <div class="col-lg-12 col-md-12 col-sm-12">
-  <h2 class="flower_h">７月</h2>
-   
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
     <img src="<?php echo esc_url( get_theme_file_uri('images/zinnia.jpg') ); ?>" alt="百日草" class="f-img">
     <table class="table f-table">
         <thead class="f-name">
@@ -88,7 +128,7 @@ Template Name: hananae
         </thead>
     </table>
 </div>
-<div class="col-lg-4 col-md-4 col-sm-6">
+<div class="col-lg-4 col-md-4 col-sm-6 pt-5">
     <img src="<?php echo esc_url( get_theme_file_uri('images/amaranth.jpg') ); ?>" alt="千日草" class="f-img">
     <table class="table f-table">
         <thead class="f-name">
@@ -103,7 +143,7 @@ Template Name: hananae
         </thead>
     </table>
 </div>
-<div class="col-lg-4 col-md-4 col-sm-6">
+<div class="col-lg-4 col-md-4 col-sm-6 pt-5">
     <img src="<?php echo esc_url( get_theme_file_uri('images/aster01_02.jpg') ); ?>" alt="アスター" class="f-img">
     <table class="table f-table">
         <thead class="f-name">
@@ -125,11 +165,10 @@ Template Name: hananae
 
 <h4 class="section_h" id="daisy-sap">菊苗</h4>
         <div class="col-lg-12 col-md-12 col-sm-12">
-           <h2 class="flower_h">１０月</h2>
             <div class="container">
                 <div class="row">
                    
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
                         <img src="<?php echo esc_url( get_theme_file_uri('images/potmom.jpg') ); ?>" alt="ポットマム" class="f-img">
                         <table class="table f-table">
                             <thead class="f-name">
@@ -144,7 +183,7 @@ Template Name: hananae
                             </thead>
                         </table>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6 pt-5">
                         <img src="<?php echo esc_url( get_theme_file_uri('images/cushionmom.jpg') ); ?>" alt="クッションマム" class="f-img">
                         <table class="table f-table">
                             <thead class="f-name">

@@ -704,6 +704,7 @@ nav ul li {
     margin-bottom: 3rem;
 }
 .section_h {
+    font-weight: 600;
     width: 100%;
     margin: 5rem auto 0;
     color: #42210b;
@@ -712,6 +713,13 @@ nav ul li {
     border-bottom: solid 3px #8cc63f;
     border-radius: 2px;
 }
+
+.yasai_h_tuki {
+    padding: 10px;
+    border-bottom: solid 3px #8cc63f;
+    border-radius: 2px;
+}
+
 .category_h {
     width: 85%;
     margin: 4rem auto;

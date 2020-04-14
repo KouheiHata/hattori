@@ -45,6 +45,17 @@
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
+		<li><a href="/hananae/">プランター</a></li>
+			<ul class="pt-2">
+				<div class="footer_border_y">
+				<li><a href="planter/#planter-yasai">プランター菜園</a></li>
+				<li><a href="planter/#planter-hana">花プランター</a></li>
+				<li>&nbsp;</li>
+				</div>
+			</ul>
+		</ul>
+
+		<ul class="ul_sitemap pt-2">
 		<li><a href="/yasai-2/">野菜</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">

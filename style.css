@@ -874,6 +874,27 @@ nav ul li {
     color: #42210b;
 }
 
+/*---- プランター ----*/
+.section-planter {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+	line-height: 2.0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #42210b;
+}
+
+.planter_h {
+	background: #ffff9f;
+	padding: 5px;
+	display: inline;
+	font-size: 24px;
+	font-weight: bold;
+}
+
 /*---- 野菜ページ部分 ----*/
 .card-p {
     font-size: 18px;
@@ -899,6 +920,7 @@ nav ul li {
 
  .desc-img2 {
     margin: 2rem 0;
+	width: 45%;
 }
 
 .desc-title {
@@ -916,6 +938,17 @@ nav ul li {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.8rem;
+}
+
+.desc-note {
+	line-height: 1.7;
+	font-size: 18px;
+	font-weight: bold;
+	height: 100px;
+}
+
+.desc-img {
+	margin: 0px;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -1062,6 +1095,10 @@ html {
 
 .boxShadow {
     box-shadow: 1px 1px 2px;
+}
+
+.text-maincolor {
+	color: #8cc63f;
 }
 
 /* -------------------------------------------------------------------------------- */

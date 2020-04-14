@@ -453,6 +453,19 @@
         margin: 1rem 0 0;
     }
 }
+
+@media screen and (max-width: 691px) {
+	/* プランター */
+	.planter_shikumi {
+		display: none;
+	}
+
+	/* 食用菊 */
+	.desc-note {
+		height: auto;
+	}
+}
+
 @media screen and (min-width:992px) {
     .res_img {
         display: none;

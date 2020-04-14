@@ -96,6 +96,31 @@ window.onload = entryChange;
 	                        <td class="b-cell text-right">　円</td>
 	                        <td class="b-cell text-right">　円</td>
 	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">庄屋大長長～い茄子</td>
+	                        <td class="b-cell text-right">　円</td>
+	                        <td class="b-cell text-right">　円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">水茄子（SL紫水）</td>
+	                        <td class="b-cell text-right">　円</td>
+	                        <td class="b-cell text-right">　円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">米茄子（くろわし）</td>
+	                        <td class="b-cell text-right">　円</td>
+	                        <td class="b-cell text-right">　円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">美男茄子（水茄子）</td>
+	                        <td class="b-cell text-right">　円</td>
+	                        <td class="b-cell text-right">　円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">ふわとろ長～い茄子</td>
+	                        <td class="b-cell text-right">　円</td>
+	                        <td class="b-cell text-right">　円</td>
+	                    </tr>
 	                </tbody>
 	            </table>
 	        </div>

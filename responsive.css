@@ -361,7 +361,7 @@
 @media screen and (max-width: 1000px) {
 	.sc_board {
 		width: 98%;
-		height:1060px;
+		height:1180px;
 	}
 
 	.sc_tuki {
@@ -387,6 +387,23 @@
 		padding-left:10px;
 		height: 125px;
 		width: 70%;
+	}
+
+/* イベントが２つある月 */
+	.sc_tuki_size_2 {
+		height: 230px;
+		width: 80px;
+	}
+
+	.top_border_y_2 {
+		height: 230px;
+		width: 0px;
+	}
+
+	.sc_detail_size_2 {
+		height: 230px;
+		width: 70%;
+		padding-left:10px;
 	}
 
 /* イベントが３つある月 */

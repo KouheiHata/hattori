@@ -28,7 +28,7 @@ Template Name: yasai
                         <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.5157110170016!2d136.160230315265!3d35.90987498014166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8adcd36c8bf27%3A0x5b4f908317b37d89!2z44Kz44O844OX44Gf44GR44G1IOW5s-WHuuW6lw!5e0!3m2!1sja!2sjp!4v1576455497787!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
-                        <h5 class="card-title">百姓の館</h5>
+                        <h5 class="card-title">百姓の館&nbsp;南店</h5>
                         <p class="card-p">〒915-0841</p>
                         <p class="card-p">福井県越前市文京１丁目5-20</p>
                         <p class="card-p"><i class="fas fa-phone"></i>0778-23-3511</p>
@@ -42,7 +42,7 @@ Template Name: yasai
                         <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d807.9206243475725!2d136.17839448806012!3d35.90579108502422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8ac2453caba0f%3A0x4f6041522e98a628!2z55m-5aeT44Gu6aSo5p2R5Zu95bqX!5e0!3m2!1sja!2sjp!4v1586494681267!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
-                        <h5 class="card-title">百姓の館&nbsp;村国&nbsp;南&nbsp;シピィ店</h5>
+                        <h5 class="card-title">百姓の館&nbsp;シピィ店</h5>
                         <p class="card-p">〒915-0883&nbsp;福井県越前市新町7-8 SIPY(シピィ) 1F</p>
                         <p class="card-p"><i class="fas fa-phone"></i>0778-21-1318</p>
                         <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.7580362213803!2d136.14963064988464!3d35.90394132523729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8ac4b1bbcdb23%3A0x546a5e78b577aa0b!2z55m-5aeT44Gu6aSoIOOCt-ODlOOCo-W6lw!5e0!3m2!1sja!2sjp!4v1586494981140!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -98,8 +98,8 @@ Template Name: yasai
 	</div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
-            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_8_okura.png') ); ?>" alt=""></div>
-            <h5 class="card-title mt-3">オクラ</h5>
+            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_8_maruokura.png') ); ?>" alt=""></div>
+            <h5 class="card-title mt-3">丸オクラ</h5>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
             <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_8_toumorokoshi.png') ); ?>" alt=""></div>

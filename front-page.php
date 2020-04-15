@@ -88,19 +88,25 @@ Template Name: フロントページ
 		</div>
 
 
-		<div class="top_border_x sc_tuki_size float-left ml-sm-5 pr-3" style="border-width: 0px 0px 3px 0px;">
+		<div class="top_border_x sc_tuki_size_2 float-left ml-sm-5 pr-3" style="border-width: 0px 0px 3px 0px;">
 			<span class="sc_tuki">11</span><span class="sc_tuki2">月</span>
 		</div>
 
-		<div class="top_border_y float-left m-0 p-0" style="border-width: 0px 0px 0px 3px;"></div>
+		<div class="top_border_y_2 float-left m-0 p-0" style="border-width: 0px 0px 0px 3px;"></div>
 
-		<div class="top_border_x sc_detail_size lh15" style="border-width: 0px 0px 3px 0px;">
-			<span style="color: #8cc63f;">■</span>玉ねぎ苗の販売<br />
-			　11/1～11/10<br />
-			<i class="far fa-file-pdf"></i><a href="#">注文票ダウンロード</a><br />
-			<i class="far fa-file-pdf"></i><a href="#">プランター注文票のダウンロード</a>
+		<div class="top_border_x sc_detail_size_2 lh15" style="border-width: 0px 0px 3px 0px;">
+			<div class="d-block pr-3">
+				<span style="color: #8cc63f;">■</span>玉ねぎ苗の販売<br />
+				　11/1～11/10<br />
+				<i class="far fa-file-pdf"></i><a href="#">注文票ダウンロード</a><br />
+				<i class="far fa-file-pdf"></i><a href="#">プランター注文票のダウンロード</a>
+			</div>
+
+			<div class="d-block pt-3">
+				<span style="color: #ed1c24;">■</span>野菜作り交流会（要予約）<br />
+				11/21　10:00～
+			</div>
 		</div>
-
 
 		<div class="top_border_x sc_tuki_size float-left ml-sm-5 pr-3" style="border-width: 0px 0px 3px 0px;">
 			<span class="sc_tuki">12</span><span class="sc_tuki2">月</span>

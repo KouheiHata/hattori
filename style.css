@@ -600,7 +600,7 @@ nav ul li {
 .sc_board {
 	background-color:#ffffff;
 	width:98%;
-	height:1090px;
+	height:1180px;
 	margin: 0 auto;
 }
 
@@ -646,6 +646,30 @@ nav ul li {
 	position: relative;
 	top: 10px;
 	font-size: 40px;
+}
+
+/* イベントが２つある月 */
+.top_border_y_2 {
+	border-style: solid;
+	-moz-border-image: url(images/border_tate.png) 0 3 0 3 round round;
+	-webkit-border-image: url(images/border_tate.png) 0 3 0 3 round round;
+	-o-border-image: url(images/border_tate.png) 0 3 0 3 round round;
+	border-image: url(images/border_tate.png) 0 3 0 3 round round;
+	height: 240px;
+	width: 0px;
+}
+
+.sc_tuki_size_2 {
+	height:240px;
+	width: 170px;
+}
+
+.sc_detail_size_2 {
+	padding-top: 1rem;
+	margin-left: 130px;
+	padding-left:110px;
+	height:240px;
+	width: 82%;
 }
 
 /* イベントが３つある月 */

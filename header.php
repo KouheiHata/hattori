@@ -76,7 +76,7 @@ wp_deregister_script('jquery');
 					<li><a href="/yasainae/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasainae.png') ); ?>" width="34px">&nbsp;野菜苗</a></li>
 					<li><a href="/hananae/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_hananae.png') ); ?>" width="34px">&nbsp;花苗</a></li>
 					<li><a href="//"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_planter.png') ); ?>" width="34px">&nbsp;プランター</a></li>
-					<li><a href="/yasai-2/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasai.png') ); ?>" width="34px">&nbsp;野菜</a></li>
+					<li><a href="/yasai/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasai.png') ); ?>" width="34px">&nbsp;野菜</a></li>
 					<li><a href="/daisy/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_kiku.png') ); ?>" width="34px">&nbsp;食用菊</a></li>
 					<li><a href="/contact/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_contact.png') ); ?>" width="34px">&nbsp;お問い合わせ</a></li>
 				</div>
@@ -101,7 +101,7 @@ wp_deregister_script('jquery');
 		                    <li class="nav-item text-center"><a href="/planter/"><img src="<?php echo get_theme_file_uri('images/menu_ico_planter.png'); ?>" alt="プランター">
 		                            <p>プランター</p>
 		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/yasai-2/"><img src="<?php echo get_theme_file_uri('images/menu_ico_yasai.png'); ?>" alt="野菜">
+		                    <li class="nav-item text-center"><a href="/yasai/"><img src="<?php echo get_theme_file_uri('images/menu_ico_yasai.png'); ?>" alt="野菜">
 		                            <p>野菜</p>
 		                        </a></li>
 		                    <li class="nav-item text-center"><a href="/daisy/"><img src="<?php echo get_theme_file_uri('images/menu_ico_kiku.png'); ?>" alt="食用菊">

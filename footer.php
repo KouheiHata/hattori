@@ -26,7 +26,7 @@
 		<li><a href="/yasainae/">野菜苗</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li><a href="yasainae?#st_haru">春野菜苗</a></li>
+				<li><a href="/yasainae?#st_haru">春野菜苗</a></li>
 				<li>秋野菜苗</li>
 				<li>玉ねぎ苗</li>
 				</div>
@@ -37,30 +37,30 @@
 		<li><a href="/hananae/">花苗</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li><a href="hananae/#flow-sap">花苗</a></li>
-				<li><a href="hananae/#cut-sap">切花苗</a></li>
-				<li><a href="hananae/#daisy-sap">菊苗</a></li>
+				<li><a href="/hananae/#flow-sap">花苗</a></li>
+				<li><a href="/hananae/#cut-sap">切花苗</a></li>
+				<li><a href="/hananae/#daisy-sap">菊苗</a></li>
 				</div>
 			</ul>
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/hananae/">プランター</a></li>
+		<li><a href="/planter/">プランター</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li><a href="planter/#planter-yasai">プランター菜園</a></li>
-				<li><a href="planter/#planter-hana">花プランター</a></li>
+				<li><a href="/planter/#planter-yasai">プランター菜園</a></li>
+				<li><a href="/planter/#planter-hana">花プランター</a></li>
 				<li>&nbsp;</li>
 				</div>
 			</ul>
 		</ul>
 
 		<ul class="ul_sitemap pt-2">
-		<li><a href="/yasai-2/">野菜</a></li>
+		<li><a href="/yasai/">野菜</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li><a href="yasai-2/#sell">直売先</a></li>
-				<li><a href="yasai-2/#this_m">今月の野菜</a></li>
+				<li><a href="/yasai/#sell">直売先</a></li>
+				<li><a href="/yasai/#this_m">今月の野菜</a></li>
 				<li>&nbsp;</li>
 				</div>
 			</ul>
@@ -70,9 +70,9 @@
 		<li><a href="/daisy/">食用菊</a></li>
 			<ul class="pt-2">
 				<div class="footer_border_y">
-				<li><a href="daisy/#daisy-desc">食用菊って？</a></li>
-				<li><a href="daisy/#daisy-list">取り扱い食用菊</a></li>
-				<li><a href="daisy/recipe">おいしいレシピ</a></li>
+				<li><a href="/daisy/#daisy-desc">食用菊って？</a></li>
+				<li><a href="/daisy/#daisy-list">取り扱い食用菊</a></li>
+				<li><a href="/daisy/recipe">おいしいレシピ</a></li>
 				</div>
 			</ul>
 		</ul>
@@ -83,7 +83,7 @@
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-block pt-3" align="center">
-		<a href="#" class="btn_naetyumon">2020年苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
+		<a href="<?php echo esc_url( get_theme_file_uri('images/2020_haruyasai.pdf') ); ?>" class="btn_naetyumon">2020年苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-3">

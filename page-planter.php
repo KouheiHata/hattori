@@ -61,7 +61,7 @@ Template Name: planter
 
 	<section class="section" style="margin-top: 70px; margin-bottom: 50px;">
 	    <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
-	    <a class="d_g_pdf" href="#">プランター注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
+	    <a class="d_g_pdf" href="<?php echo esc_url( get_theme_file_uri('images/2020_planter.pdf') ); ?>">プランター注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
 	</section>
 
     </div>

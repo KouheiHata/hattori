@@ -617,7 +617,7 @@
 /*	12. Footer
 /* -------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width:1024px) {
     .s-title {
         display: none;
     }
@@ -626,7 +626,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
 	.res_footer {
 		padding-top: 80px;
 		padding-left: 30px;

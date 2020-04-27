@@ -1,7 +1,7 @@
 <footer class="Footer">
 
 <div class="container-fluid footer_back">
-	<div class="footer_row row lh20" style="">
+	<div class="footer_row row lh20">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-inline res_footer">
 			<h3 class="s-title">サイトマップ</h3>
 		</div>

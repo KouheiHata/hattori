@@ -8,6 +8,8 @@
 <meta name="description" content="福井県越前市にある各種野菜の苗や花の苗を扱っています">
 <meta name="keywords" content="福井県, fukui, 越前市, echizen, 野菜苗, 花苗,野菜, 食用菊, 苗のはっとり">
 
+<!-- favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 <!-- Bootstrap4 -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!-- Font Awesome -->

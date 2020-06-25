@@ -91,6 +91,11 @@ return $wareki;
 // remove_filter('the_content', 'wpautop');
 // remove_filter( 'the_excerpt', 'wpautop' );
 
+// Remove auto p from Contact Form 7 shortcode output
+add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
+function wpcf7_autop_return_false() {
+    return false;
+} 
 
 //Jetpack Page Speed Insightモバイル向け対策
 function dequeue_devicepx() {

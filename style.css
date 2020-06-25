@@ -975,11 +975,6 @@ nav ul li {
 	margin: 0px;
 }
 
-/*---- お問い合わせ ----*/
-.wpcf7-text {
-	width: calc(100vw * 0.35);
-}
-
 /* -------------------------------------------------------------------------------- */
 /*	11.	Blog
 /* -------------------------------------------------------------------------------- */
@@ -1243,6 +1238,32 @@ div.wpcf7 input.wpcf7-submit:hover {
     width: 80%;
 }
 
+/* 本サイト用のカスタマイズ */
+.text-nedan {
+	width: 150px!important;
+	text-align: right;
+}
+
+.wpcf7-form-sum {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    width: 200px;
+    height: 45px;
+    margin: 10px 0;
+    display: block;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #42210b;
+    text-align: center;
+}
+
+.wpcf7-text {
+	width: 500px;
+}
 /* -------------------------------------------------------------------------------- */
 /*	17.	Google Map
 /* -------------------------------------------------------------------------------- */

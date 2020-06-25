@@ -453,6 +453,13 @@
 /* -------------------------------------------------------------------------------- */
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 1199px) {
+    /*お問い合わせ*/
+	.wpcf7-text {
+		width: 40vw;
+	}
+}
+
 @media screen and (max-width:1024px) {
     /*サイト全体*/
 
@@ -473,24 +480,6 @@
 
     div.wpcf7 input.wpcf7-submit {
         margin: 1rem 0 0;
-    }
-}
-
-@media screen and (max-width: 691px) {
-	/* プランター */
-	.planter_shikumi {
-		display: none;
-	}
-
-	/* 食用菊 */
-	.desc-note {
-		height: auto;
-	}
-}
-
-@media screen and (min-width:992px) {
-    .res_img {
-        display: none;
     }
 }
 
@@ -588,6 +577,31 @@
         position: static;
     }
     
+}
+
+@media screen and (max-width: 691px) {
+	/* プランター */
+	.planter_shikumi {
+		display: none;
+	}
+
+	/* 食用菊 */
+	.desc-note {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 414px) {
+    /*お問い合わせ*/
+	.wpcf7-text {
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width:992px) {
+    .res_img {
+        display: none;
+    }
 }
 
 @media screen and (min-width:972px and max-width: 1079px) {

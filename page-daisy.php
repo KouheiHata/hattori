@@ -29,7 +29,7 @@ Template Name: daisy
     
     <section class="section mt-5">
     <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
-    <a class="d_g_pdf" href="<?php echo esc_url( get_theme_file_uri('images/2020_haruyasai.pdf') ); ?>">2020年 苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
+    <a class="d_g_pdf" href="<?php echo esc_url( get_theme_file_uri('images/2020_akiyasai.pdf') ); ?>">2020年 苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
     </section>
 
 <h4 class="section_h" id="recipe" style="width: 95%; margin-top: 100px;">保存方法</h4>

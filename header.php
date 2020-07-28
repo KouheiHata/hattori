@@ -32,11 +32,21 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<meta name="google-site-verification" content="pfS2MJ3FKZwjaewn5tDTRd3EeSgwWEDA033TYvl6a70" />
+<meta name="google-site-verification" content="g0DNH0tjEgdvbc-fpGr3uEcUNBZ7wwV0nmWeLebtcz0" />
 
 <?php
 wp_deregister_script('jquery');
 ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171493040-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171493040-1');
+</script>
 
 <?php wp_head(); ?>
 

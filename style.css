@@ -556,7 +556,6 @@ button, input, select, textarea {
     left: 4px;
     margin-top: -64px;
     display: block;
-    width: 140px;
     height: 64px;
     font-size: 21px;
     color: #42210b;
@@ -578,9 +577,14 @@ nav ul li {
 /* ナビメニューフォント */
 .nav-item p {
     font-family: 'ぼくたちのゴシック２レギュラー';
+    font-size: 17px;
     height: 25px;
     overflow: hidden;
 	text-align: center;
+}
+
+.nav-item a img {
+	padding-bottom: 5px;
 }
 
 /* ハンバーガーメニュー */
@@ -1068,7 +1072,6 @@ html {
 }
 
 .btn_naetyumon {
-    margin-top: 1.5rem;
     font-size:16pt;
     text-decoration:none;
     display:block;

@@ -83,7 +83,7 @@ Template Name: フロントページ
 		<div class="top_border_x sc_detail_size lh15" style="border-width: 0px 0px 3px 0px;">
 			<span style="color: #8cc63f;">■</span>秋野菜苗の販売<br />
 			9/1～9/15<br />
-			<i class="far fa-file-pdf"></i><a href="<?php echo esc_url( get_theme_file_uri('images/2020_haruyasai.pdf') ); ?>">注文票ダウンロード</a><br />
+			<i class="far fa-file-pdf"></i><a href="<?php echo esc_url( get_theme_file_uri('images/2020_akiyasai.pdf') ); ?>">注文票ダウンロード</a><br />
 			<i class="far fa-file-pdf"></i><a href="<?php echo esc_url( get_theme_file_uri('images/2020_planter.pdf') ); ?>">プランター注文票のダウンロード</a>
 		</div>
 
@@ -98,7 +98,7 @@ Template Name: フロントページ
 			<div class="d-block pr-3">
 				<span style="color: #8cc63f;">■</span>玉ねぎ苗の販売<br />
 				　11/1～11/10<br />
-				<i class="far fa-file-pdf"></i><a href="<?php echo esc_url( get_theme_file_uri('images/2020_haruyasai.pdf') ); ?>">注文票ダウンロード</a><br />
+				<i class="far fa-file-pdf"></i><a href="<?php echo esc_url( get_theme_file_uri('images/2020_akiyasai.pdf') ); ?>">注文票ダウンロード</a><br />
 				<i class="far fa-file-pdf"></i><a href="<?php echo esc_url( get_theme_file_uri('images/2020_planter.pdf') ); ?>">プランター注文票のダウンロード</a>
 			</div>
 

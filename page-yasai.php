@@ -85,8 +85,8 @@ Template Name: yasai
             <h5 class="card-title mt-3">ピーマン</h5>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
-            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_7_tomato.png') ); ?>" alt=""></div>
-            <h5 class="card-title mt-3">トマト</h5>
+            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_7_minitomato.png') ); ?>" alt=""></div>
+            <h5 class="card-title mt-3">ミニトマト</h5>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
             <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_7_kyuri.png') ); ?>" alt=""></div>
@@ -102,8 +102,20 @@ Template Name: yasai
             <h5 class="card-title mt-3">丸オクラ</h5>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
-            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_8_toumorokoshi.png') ); ?>" alt=""></div>
-            <h5 class="card-title mt-3">とうもろこし</h5>
+            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_7_nasu.png') ); ?>" alt=""></div>
+            <h5 class="card-title mt-3">ナス</h5>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_7_minitomato.png') ); ?>" alt=""></div>
+            <h5 class="card-title mt-3">ミニトマト</h5>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_7_pi-man.png') ); ?>" alt=""></div>
+            <h5 class="card-title mt-3">ピーマン</h5>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+            <div class="yasai-img"><img src="<?php echo esc_url( get_theme_file_uri('images/yasai_8_tamanegi.png') ); ?>" alt=""></div>
+            <h5 class="card-title mt-3">玉ねぎ</h5>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
         </div>

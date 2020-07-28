@@ -19,9 +19,17 @@ function entryClear(){
 	document.getElementById('suika').style.display = "none";
 	document.getElementById('tukeuri').style.display = "none";
 	document.getElementById('zucchini').style.display = "none";
-	document.getElementById('tomorokoshi').style.display = "none";
 	document.getElementById('tougan').style.display = "none";
 	document.getElementById('kabocha').style.display = "none";
+	// 秋野菜
+	document.getElementById('burokko').style.display = "none";
+	document.getElementById('kariflower').style.display = "none";
+	document.getElementById('kyabetu').style.display = "none";
+	document.getElementById('hakusai').style.display = "none";
+	document.getElementById('tamaretasu').style.display = "none";
+	document.getElementById('ri-furetasu').style.display = "none";
+	document.getElementById('tamanegi').style.display = "none";
+	document.getElementById('harukyabetu').style.display = "none";
 }
 
 function entryChangeHaru(){
@@ -77,7 +85,6 @@ window.onload = entryClear;
             <option value="suika">すいか</option>
             <option value="tukeuri">漬物うり</option>
             <option value="zucchini">ズッキーニ</option>
-            <option value="tomorokoshi">とうもろこし</option>
             <option value="tougan">とうがん</option>
             <option value="kabocha">かぼちゃ</option>
         </select>
@@ -86,6 +93,14 @@ window.onload = entryClear;
         <div class="list_title">秋野菜</div>
         <select name="autumn" class="d-list" id="st_aki" onchange="entryChangeAki();">
             <option value="0" selected>選択してください</option>
+            <option value="burokko">ブロッコリー</option>
+            <option value="kariflower">カリフラワー</option>
+            <option value="kyabetu">キャベツ</option>
+            <option value="hakusai">白菜</option>
+            <option value="tamaretasu">玉レタス</option>
+            <option value="ri-furetasu">リーフレタス</option>
+            <option value="tamanegi">玉ねぎ苗</option>
+            <option value="harukyabetu">春キャベツ</option>
         </select>
 	</div>
 	</div> <!-- margin:0 auto -->
@@ -495,33 +510,6 @@ window.onload = entryClear;
 			</div>	<!-- row -->
 		</div>		<!-- zucchini -->
 
-		<div id="tomorokoshi">
-		    <div class="row">
-	        <div class="col-lg-12 col-md12 col-sm-12">
-	            <h2 class="category_h">とうもろこし（イネ科）</h2>
-	        </div>
-	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
-	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_tomorokoshi.png') ); ?>" width="240px" alt="とうもろこし">
-			</div>
-	        <div class="col-lg-8 col-md-8 col-sm-12">
-	            <table class="table b-table">
-	               <thead><tr>
-	                   <th class="b-cell">品名</th>
-	                   <th class="b-cell">自根</th>
-	                   <th class="b-cell">接木</th>
-	               </tr></thead>
-	                <tbody>
-	                    <tr>
-	                        <td class="b-cell">とうもろこし</td>
-	                        <td class="b-cell text-right">１１０円</td>
-	                        <td class="b-cell text-right">－</td>
-	                    </tr>
-	                </tbody>
-	            </table>
-	        </div>
-			</div>	<!-- row -->
-		</div>		<!-- tomorokoshi -->
-
 		<div id="tougan">
 		    <div class="row">
 	        <div class="col-lg-12 col-md12 col-sm-12">
@@ -602,6 +590,257 @@ window.onload = entryClear;
 	        <h4 class="section_h" id="akiyasai">秋野菜苗</h4>
         </div>
 	</div>
+		<div id="burokko">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">ブロッコリー</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_burokko.png') ); ?>" width="240px" alt="ブロッコリー">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">ハイツＳＰ</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">グリーンビューティー</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">茎ブロッコリー</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- burokko -->
+
+		<div id="kariflower">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">カリフラワー</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_kariflower.png') ); ?>" width="240px" alt="カリフラワー">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">スノークラウン</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- kariflower -->
+
+		<div id="kyabetu">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">キャベツ</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_kyabetu.png') ); ?>" width="240px" alt="キャベツ">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">新藍</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">あまだま</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">春波</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">湖水</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- kyabetu -->
+
+		<div id="hakusai">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">白菜</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_hakusai.png') ); ?>" width="240px" alt="白菜">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">耐病60日</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">きらぼし７７</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">黄ごころ８５</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">きらぼし９０</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- hakusai -->
+
+		<div id="tamaretasu">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">玉レタス</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_tamaretasu.png') ); ?>" width="240px" alt="玉レタス">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">シスコ</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- tamaretasu -->
+
+		<div id="ri-furetasu">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">リーフレタス</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_ri-furetasu.png') ); ?>" width="240px" alt="リーフレタス">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">グリーンジャケット</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">ワインドレス</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- ri-furetasu -->
+
+		<div id="tamanegi">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">玉ねぎ苗</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_tamanegi.png') ); ?>" width="240px" alt="玉ねぎ苗">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">スーパーリニア</td>
+	                        <td class="b-cell text-right">９円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">ＯＰ黄</td>
+	                        <td class="b-cell text-right">９円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">ネオアース</td>
+	                        <td class="b-cell text-right">９円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">ケル玉</td>
+	                        <td class="b-cell text-right">９円</td>
+	                    </tr>
+	                    <tr>
+	                        <td class="b-cell">赤玉ねぎ</td>
+	                        <td class="b-cell text-right">９円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- tamanegi -->
+
+		<div id="harukyabetu">
+		    <div class="row">
+	        <div class="col-lg-12 col-md12 col-sm-12">
+	            <h2 class="category_h">春キャベツ</h2>
+	        </div>
+	        <div class="col-lg-4 col-md-4 col-sm-12 pb-5" style="text-align: center;">
+	        <img src="<?php echo esc_url( get_theme_file_uri('images/yasai_kyabetu.png') ); ?>" width="240px" alt="春キャベツ">
+			</div>
+	        <div class="col-lg-8 col-md-8 col-sm-12">
+	            <table class="table b-table">
+	               <thead><tr>
+	                   <th class="b-cell">品名</th>
+	                   <th class="b-cell">単価（税込）</th>
+	               </tr></thead>
+	                <tbody>
+	                    <tr>
+	                        <td class="b-cell">春ひかり七号</td>
+	                        <td class="b-cell text-right">７５円</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </div>
+			</div>	<!-- row -->
+		</div>		<!-- harukyabetu -->
 
 <!-- ここに野菜を記述する -->
 
@@ -612,7 +851,7 @@ window.onload = entryClear;
 
 	<section class="section" style="margin-top: 50px;">
 	    <p class="main_p">ご注文は下記注文票をダウンロードしてご希望の品目を記入し、<br>ＦＡＸか当ハウスまで直接お持ちください。</p>
-	    <a class="d_g_pdf" href="<?php echo esc_url( get_theme_file_uri('images/2020_haruyasai.pdf') ); ?>">2020年 苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
+	    <a class="d_g_pdf" href="<?php echo esc_url( get_theme_file_uri('images/2020_akiyasai.pdf') ); ?>">2020年 苗注文票のダウンロードはこちら<i class="far fa-file-pdf"></i></a>
 	</section>
 
     </div>

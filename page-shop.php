@@ -30,12 +30,22 @@ function addFigure(numVal) {
 }
 
 function clickBtn1() {
-	document.getElementsByName("text-homemomo").item(0).value = document.getElementsByName("number-homemomo").item(0).value * document.getElementsByName("number-tanka-homemomo").item(0).value;
-	document.getElementsByName("text-homemomo").item(0).value = addFigure(document.getElementsByName("text-homemomo").item(0).value);
-	document.getElementsByName("text-saturn").item(0).value = document.getElementsByName("number-saturn").item(0).value * document.getElementsByName("number-tanka-saturn").item(0).value;
-	document.getElementsByName("text-saturn").item(0).value = addFigure(document.getElementsByName("text-saturn").item(0).value);
-	document.getElementsByName("text-huru").item(0).value = document.getElementsByName("number-huru").item(0).value * document.getElementsByName("number-tanka-huru").item(0).value;
-	document.getElementsByName("text-huru").item(0).value = addFigure(document.getElementsByName("text-huru").item(0).value);
+	document.getElementsByName("text-homemomo-j").item(0).value = document.getElementsByName("number-homemomo-j").item(0).value * document.getElementsByName("number-tanka-homemomo-j").item(0).value;
+	document.getElementsByName("text-homemomo-t").item(0).value = document.getElementsByName("number-homemomo-t").item(0).value * document.getElementsByName("number-tanka-homemomo-t").item(0).value;
+	document.getElementsByName("text-saturn-j").item(0).value = document.getElementsByName("number-saturn-j").item(0).value * document.getElementsByName("number-tanka-saturn-j").item(0).value;
+	document.getElementsByName("text-saturn-t").item(0).value = document.getElementsByName("number-saturn-t").item(0).value * document.getElementsByName("number-tanka-saturn-t").item(0).value;
+	document.getElementsByName("text-huru-j").item(0).value = document.getElementsByName("number-huru-j").item(0).value * document.getElementsByName("number-tanka-huru-j").item(0).value;
+	document.getElementsByName("text-huru-t").item(0).value = document.getElementsByName("number-huru-t").item(0).value * document.getElementsByName("number-tanka-huru-t").item(0).value;
+	// 合計を算出
+	document.getElementsByName("text-goukei").item(0).value = Number(document.getElementsByName("text-homemomo-j").item(0).value) + Number(document.getElementsByName("text-homemomo-t").item(0).value) + Number(document.getElementsByName("text-saturn-j").item(0).value) + Number(document.getElementsByName("text-saturn-t").item(0).value) + Number(document.getElementsByName("text-huru-j").item(0).value) + Number(document.getElementsByName("text-huru-t").item(0).value);
+	// 値段にカンマを付ける。
+	document.getElementsByName("text-homemomo-j").item(0).value = addFigure(document.getElementsByName("text-homemomo-j").item(0).value);
+	document.getElementsByName("text-homemomo-t").item(0).value = addFigure(document.getElementsByName("text-homemomo-t").item(0).value);
+	document.getElementsByName("text-saturn-j").item(0).value = addFigure(document.getElementsByName("text-saturn-j").item(0).value);
+	document.getElementsByName("text-saturn-t").item(0).value = addFigure(document.getElementsByName("text-saturn-t").item(0).value);
+	document.getElementsByName("text-huru-j").item(0).value = addFigure(document.getElementsByName("text-huru-j").item(0).value);
+	document.getElementsByName("text-huru-t").item(0).value = addFigure(document.getElementsByName("text-huru-t").item(0).value);
+	document.getElementsByName("text-goukei").item(0).value = addFigure(document.getElementsByName("text-goukei").item(0).value);
 }
 </script>
 

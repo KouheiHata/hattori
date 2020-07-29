@@ -56,30 +56,28 @@ wp_deregister_script('jquery');
 <header class="header">
     <div class="container-fluid">
 	    <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 top-height">
 				<table border="0" class="header_table">
 				<tr><td><div class="header_td">〒915-0056<br />
                 越前市向新保町32-32</div></td></tr>
 				</table>
 
 				<table border="0" class="header_table2">
-				<tr><td><div class="header_td"><a href="tel:09082651135"><i class="fas fa-mobile-alt"></i>090-8265-1135</a><br />
-                <a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square pl-1"></i>&nbsp;公式&nbsp;facebook</a></div></td></tr>
+				<tr><td><div class="header_td"><a href="tel:09082651135"><i class="fas fa-mobile-alt"></i><span class="mobile_text">090-8265-1135</span></a><br class="tel_br" />
+                <a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square pl-1"></i><span class="mobile_text">&nbsp;公式&nbsp;facebook</span></a></div></td></tr>
 				</table>
 
                 <img class="header-logo" src="<?php echo esc_url( get_theme_file_uri('images/logo.png') ); ?>" alt="苗のはっとり｜ロゴ">
 
-				<div style="text-align: center;">
-                <img class="header-logo_mobile" src="<?php echo esc_url( get_theme_file_uri('images/logo_mobile.png') ); ?>" alt="苗のはっとり｜ロゴ">
-				</div>
-
+				<div class="header_pt">
                 <p class="header_p"><a href="tel:09082651135"><i class="fas fa-mobile-alt"></i>090-8265-1135</p></a><br />
                 <p class="header_p"><a href="https://www.facebook.com/%E8%8B%97%E3%81%AE%E3%81%AF%E3%81%A3%E3%81%A8%E3%82%8A-101361468129762/"><i class="fab fa-facebook-square pl-1"></i>&nbsp;公式&nbsp;facebook</a></p>
+				</div>
 
 				<div class="navi-btn" id="navi-btn">
-				  <span></span>
-				  <span></span>
-				  <span></span>
+				  <span class="h-line-1 hamburger_line"></span>
+				  <span class="h-line-2 hamburger_line"></span>
+				  <span class="h-line-3 hamburger_line"></span>
 				  <p>MENU</p>
 				</div>
 				<div class="navi-menu" id="navi-menu">

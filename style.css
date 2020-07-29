@@ -430,6 +430,10 @@ button, input, select, textarea {
     background-image: url(images/cloth_background.jpg);
 }
 
+.header_pt {
+	padding-top: 20px;
+}
+
 .header_p {
     text-align: center;
     color: #42210b;
@@ -444,6 +448,7 @@ button, input, select, textarea {
 }
 
 .header_table {
+	margin-top: 15px;
 	margin-left: 12%;
 	float: left;
 }
@@ -470,15 +475,15 @@ button, input, select, textarea {
     padding: 4px;
 }
 
+.top-height {
+	height: 100px;
+}
+
 .header-logo {
-	width: 35%;
+	height: 100px;
 	margin: 0px 100px;
 	float: left;
 	display: inline;
-}
-
-.header-logo_mobile {
-	display: none;
 }
 
 .main-img {
@@ -543,7 +548,7 @@ button, input, select, textarea {
     height: 64px;
     margin-top: -64px;
     position: relative;
-    left: 144px;
+    left: 130px;
 }
 
 /* ナビメニューリンク領域 */

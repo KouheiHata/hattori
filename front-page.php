@@ -11,6 +11,27 @@ Template Name: フロントページ
 
 <div class="container-fluid">
 <div class="row">
+	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-left">
+		<div class="news_midashi"><span class="bold">11/1（日）</span>から、<span style="color:#8cc63f">玉ねぎ苗</span>の販売開始します<br>
+		　<br>
+		<span class="news_text">今年は、玉ねぎ苗のご予約が増え、とてもありがたく<br>
+		従業員一同喜んでおります。<br>
+		苗はご予約の順番でお渡ししていきます。<br>
+		　<br>
+		予約状況によっては、お待ちいただく事もあります。<br>
+		余剰が出た時には、追加注文も承りますので<br>
+		お問い合わせ下さい。<br>
+		　<br>
+		皆様に良い苗をお渡しできる様に精進して<br>
+		まいりますのでよろしくお願いいたします。<br>
+		</span></div>
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left">
+		<div class="news_midashi">
+		<img src="<?php echo get_theme_file_uri('images/kakasi.png'); ?>" alt="かかし" class="news_pic"><br />
+		</div>
+	</div>
+
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 
 		<img src="<?php echo get_theme_file_uri('images/schedule_top.png'); ?>" alt="年間スケジュール" class="pt-5 text-center" width="98%"><br />

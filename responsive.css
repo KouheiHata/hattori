@@ -411,6 +411,14 @@
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
+	.news_midashi {
+		font-size: 24px;
+	}
+
+	.news_text {
+		font-size: 16px;
+	}
+
 	.sc_board {
 		width: 98%;
 		height:1180px;
@@ -480,7 +488,22 @@
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.news_pic {
+		width: 260px;
+	}
+}
+
 @media screen and (max-width: 575px) {
+	.news_midashi {
+		font-size: 12px;
+	}
+	.news_text {
+		font-size: 10px;
+	}
+	.news_pic {
+		width: 180px;
+	}
 	.sc_detail_size {
 		margin-left: 100px;
 		padding-left: 10px;

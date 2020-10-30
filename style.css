@@ -605,6 +605,20 @@ nav ul li {
 /* -------------------------------------------------------------------------------- */
 /*	8.	Top Page
 /* -------------------------------------------------------------------------------- */
+.news_midashi {
+	background-color: #fff;
+	margin-top: 30px;
+	padding: 20px 20px;
+	font-size: 32px;
+}
+
+.news_text {
+	font-size: 24px;
+}
+
+.news_pic {
+	width: 360px;
+}
 
 .sc_board {
 	background-color:#ffffff;

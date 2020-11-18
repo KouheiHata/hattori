@@ -209,6 +209,12 @@
 
 }
 
+@media screen and (max-width: 902.98px) {
+	.header-logo {
+		position: absolute;
+	}
+}
+
 @media screen and (max-width: 875.98px) {
 	.tel_br {
 		display: none;
@@ -294,6 +300,12 @@
 
 	.navi-menu {
 	  top: 60px;
+	}
+}
+
+@media screen and (max-width: 327.98px) {
+	.header-logo {
+		position: absolute;
 	}
 }
 

@@ -853,6 +853,66 @@ nav ul li {
     line-height: 2rem;
 }
 
+/*-- 会社概要 --*/
+.info-back {
+    margin: 0 auto;
+    background-image: url(images/about_back.png);
+    width: 1200px;
+    height: 820px;
+}
+
+.info-content {
+    font-size: 12px;
+    width: 100%;
+    height: 820px;
+    position: relative;
+}
+.info-logo {
+    position: absolute;
+    top: 75px;
+    left: 200px;
+}
+
+.info-content h2,
+.info-content h3,
+.info-content p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.info-content h2::before,
+.info-content h2::after {
+    content: "～";
+}
+
+.info-content p::first-letter {
+    font-size: 1.5em;
+}
+
+.info-camp {
+    width: 396px;
+    height: 158px;
+    background: #fff;
+    border:3px solid #00913a;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+    position: absolute;
+    bottom: 10px;
+    left: 418px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 0.25em;
+}
+.info-camp .box-item3 {
+    grid-row-end: span 2;
+}
+.justify-t {
+    text-align-last: justify;
+    text-justify: inter-ideograph; /*IE, edgeなど用*/
+}
+
 /*-- 野菜苗ページ部分 --*/
 .section-yasainae {
     width: 90%;

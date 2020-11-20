@@ -683,6 +683,32 @@
 	}
 }
 
+@media screen and (max-width: 576px) {
+    .info-back {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .info-content {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .info-logo {
+        display: none;
+    }
+        
+    .info-content h2,
+    .info-content h3,
+    .info-content p {
+        text-align: left;
+        word-break: break-all;
+    }
+    .info-camp {
+        left: 5%;
+    }
+}
+
 @media screen and (max-width: 414px) {
     /*お問い合わせ*/
 	.wpcf7-text {

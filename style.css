@@ -250,7 +250,6 @@ summary {
 body {
     color: #000;
     font-family: ぼくたちのゴシック２レギュラー, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    ;
     font-size: 1em;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -786,6 +785,93 @@ button, input, select, textarea {
     font-size: 18px;
     font-weight: bold;
     line-height: 2rem;
+}
+
+/*-- 会社概要 --*/
+.info-back {
+    margin: 0 auto;
+    background-image: url(images/about_back.png);
+    width: 1200px;
+    height: 820px;
+}
+
+.info-content {
+    font-size: 14px;
+    width: 100%;
+    height: 820px;
+    margin: 0 auto;
+    position: relative;
+}
+.info-logo {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+.info-heading1 {
+    color: #ea5514;
+    font-weight: bold;
+}
+
+.info-heading1::before,
+.info-heading1::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    vertical-align: baseline;
+    border-top: 20px solid #ea5514;
+    border-left: 20px solid #ea5514;
+    border-radius: 4px;
+    transform: rotate(45deg);
+}
+
+.info-content h2,
+.info-content h3,
+.info-content p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.info-content p::first-letter,
+.info-heading2::first-letter{
+    font-size: 1.5em;
+}
+
+.info-heading3 {
+    margin-top: 25px;
+    color: #22ac38;
+    font-weight: bold;
+}
+.info-heading3::before,
+.info-heading3::after {
+    content: "～";
+}
+
+.info-camp {
+    width: 396px;
+    height: 158px;
+    background: #fff;
+    border:3px solid #00913a;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    position: absolute;
+    bottom: 10px;
+    left: 402px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 0.25em;
+}
+.info-camp .box-item3 {
+    grid-row-end: span 2;
+}
+.justify-t {
+    text-align-last: justify;
+    text-justify: inter-ideograph; /*IE, edgeなど用*/
 }
 
 /*-- 野菜苗ページ部分 --*/

@@ -88,41 +88,15 @@ wp_deregister_script('jquery');
 					<li><a href="/planter/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_planter.png') ); ?>" width="34px">&nbsp;プランター</a></li>
 					<li><a href="/yasai/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_yasai.png') ); ?>" width="34px">&nbsp;野菜</a></li>
 					<li><a href="/daisy/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_kiku.png') ); ?>" width="34px">&nbsp;食用菊</a></li>
+					<li><a href="/gaiyou/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_gaiyou.png') ); ?>" width="34px" class="icon_gaiyou">&nbsp;私達について</a></li>
 					<li><a href="/contact/"><img src="<?php echo esc_url( get_theme_file_uri('images/icon_contact.png') ); ?>" width="34px">&nbsp;お問い合わせ</a></li>
 				</div>
 
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 px-0 order-sm-4">
-		        <div class="nav-wrapper">
-		            <nav id="global-nav">
-		                <ul class="text-center">
-		                    <li class="nav-item text-center"><a href="/"><img src="<?php echo get_theme_file_uri('images/menu_ico_home.png'); ?>" alt="HOME">
-		                            <p>HOME</p>
-		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/about-2/"><img src="<?php echo get_theme_file_uri('images/menu_ico_shoukai.png'); ?>" alt="紹介記事">
-		                            <p>紹介記事</p>
-		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/yasainae/"><img src="<?php echo get_theme_file_uri('images/menu_ico_nae.png'); ?>" alt="野菜苗">
-		                            <p>野菜苗</p>
-		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/hananae/"><img src="<?php echo get_theme_file_uri('images/menu_ico_hana.png'); ?>" alt="花苗">
-		                            <p>花苗</p>
-		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/planter/"><img src="<?php echo get_theme_file_uri('images/menu_ico_planter.png'); ?>" alt="プランター">
-		                            <p>プランター</p>
-		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/yasai/"><img src="<?php echo get_theme_file_uri('images/menu_ico_yasai.png'); ?>" alt="野菜">
-		                            <p>野菜</p>
-		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/daisy/"><img src="<?php echo get_theme_file_uri('images/menu_ico_kiku.png'); ?>" alt="食用菊">
-		                            <p>食用菊</p>
-		                        </a></li>
-		                    <li class="nav-item text-center"><a href="/contact/"><img src="<?php echo get_theme_file_uri('images/menu_ico_contact.png'); ?>" alt="お問い合わせ">
-		                            <p>お問い合わせ</p>
-		                        </a></li>
-		                </ul>
-		            </nav>
-		        </div>
-            </div>		<!-- col-lg-12 -->
-        </div>			<!-- row -->
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 px-0 order-sm-4">
+				<div class="nav-wrapper">
+					<a href="/"><img src="<?php echo get_theme_file_uri('images/header_menu_home.png'); ?>" alt="HOME" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_home-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_home.png'); ?>'"></a><a href="/about-2/"><img src="<?php echo get_theme_file_uri('images/header_menu_shoukai.png'); ?>" alt="紹介記事" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_shoukai-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_shoukai.png'); ?>'"></a><a href="/yasainae/"><img src="<?php echo get_theme_file_uri('images/header_menu_yasainae.png'); ?>" alt="野菜苗" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_yasainae-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_yasainae.png'); ?>'"></a><a href="/hananae/"><img src="<?php echo get_theme_file_uri('images/header_menu_hana.png'); ?>" alt="花苗" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_hana-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_hana.png'); ?>'"></a><a href="/planter/"><img src="<?php echo get_theme_file_uri('images/header_menu_planter.png'); ?>" alt="プランター" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_planter-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_planter.png'); ?>'"></a><a href="/yasai/"><img src="<?php echo get_theme_file_uri('images/header_menu_yasai.png'); ?>" alt="野菜" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_yasai-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_yasai.png'); ?>'"></a><a href="/daisy/"><img src="<?php echo get_theme_file_uri('images/header_menu_kiku.png'); ?>" alt="食用菊" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_kiku-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_kiku.png'); ?>'"></a><a href="/gaiyou/"><img src="<?php echo get_theme_file_uri('images/header_menu_watashitachi.png'); ?>" alt="私達について" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_watashitachi-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_watashitachi.png'); ?>'"></a><a href="/contact/"><img src="<?php echo get_theme_file_uri('images/header_menu_otoiawase.png'); ?>" alt="お問い合わせ" onmouseover="this.src='<?php echo get_theme_file_uri('images/header_menu_otoiawase-h.png'); ?>'" onmouseout="this.src='<?php echo get_theme_file_uri('images/header_menu_otoiawase.png'); ?>'"></a>
+				</div>
+			</div>		<!-- col-lg-12 -->
+		</div>			<!-- row -->
 </header>

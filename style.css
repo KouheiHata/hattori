@@ -506,91 +506,26 @@ button, input, select, textarea {
 }
 
 .nav-wrapper::after {
-    margin-top: 15px
+    margin-top: 8px
 }
 
 /* ナビメニュー全体設定 */
 .nav-wrapper {
     width: 100%;
-    height: 100px;
+    height: 82px;
+
     background-color: #fff;
-}
-
-#global-nav {
-    padding-top: 10px;
-}
-
-#global-nav .nav-item {
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* ナビメニューイメージサイズ調整 */
-#global-nav ul li img {
-    width: 48px;
-    height: 36px;
-}
-
-/* ナビメニュー区切り線 */
-.nav-item::before {
-    content: "";
-    display: block;
-    background-image: url(images/menu_line_vertical.png);
-    width: 5px;
-    height: 64px;
-}
-
-.nav-item:last-child::after {
-    content: "";
-    display: block;
-    background-image: url(images/menu_line_vertical.png);
-    width: 5px;
-    height: 64px;
-    margin-top: -64px;
-    position: relative;
-    left: 130px;
-}
-
-/* ナビメニューリンク領域 */
-.nav-item {
-	width: 127px;
-}
-
-.nav-item a {
-    position: relative;
-    left: 4px;
-    margin-top: -64px;
-    display: block;
-    height: 64px;
-    font-size: 21px;
-    color: #42210b;
-}
-
-nav ul li {
-    margin-top: 3px;
-    margin-bottom: 4px;
-    display: inline-block;
-    text-align: center;
-    font-size: 15pt;
-    color: #42210b;
-}
-
-.nav-item a:hover {
-    background-color: #ffff7d;
-}
-
-/* ナビメニューフォント */
-.nav-item p {
-    font-family: 'ぼくたちのゴシック２レギュラー';
-    font-size: 17px;
-    height: 25px;
-    overflow: hidden;
 	text-align: center;
 }
 
-.nav-item a img {
-	padding-bottom: 5px;
+/* ナビメニューイメージサイズ調整 */
+.nav-wrapper a img {
+	margin-top: 8px;
+	width: 10%;
 }
+
+/* ナビメニューリンク領域 */
+
 
 /* ハンバーガーメニュー */
 .navi-btn, .navi-menu, .navi-menu li {

@@ -207,6 +207,11 @@
 	  background: #ffff7d;
 	}
 
+	.icon_gaiyou {
+		height: 30px;
+		width: 55px;
+	}
+
 }
 
 @media screen and (max-width: 902.98px) {

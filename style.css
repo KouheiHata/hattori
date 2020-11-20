@@ -250,7 +250,6 @@ summary {
 body {
     color: #000;
     font-family: ぼくたちのゴシック２レギュラー, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    ;
     font-size: 1em;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -862,15 +861,25 @@ nav ul li {
 }
 
 .info-content {
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
     height: 820px;
     position: relative;
 }
 .info-logo {
     position: absolute;
-    top: 75px;
+    top: 10px;
     left: 200px;
+}
+.info-heading1 {
+    color: #ea5514;
+    font-weight: bold;
+}
+
+.info-heading1::before,
+.info-heading1::after {
+    content: "◆";
+    margin: 5px;
 }
 
 .info-content h2,
@@ -880,13 +889,19 @@ nav ul li {
     line-height: 1.5;
 }
 
-.info-content h2::before,
-.info-content h2::after {
-    content: "～";
+.info-content p::first-letter,
+.info-heading2::first-letter{
+    font-size: 1.5em;
 }
 
-.info-content p::first-letter {
-    font-size: 1.5em;
+.info-heading3 {
+    margin-top: 25px;
+    color: #22ac38;
+    font-weight: bold;
+}
+.info-heading3::before,
+.info-heading3::after {
+    content: "～";
 }
 
 .info-camp {
@@ -896,12 +911,12 @@ nav ul li {
     border:3px solid #00913a;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
-    padding-left: 0.25em;
+    padding-left: 0.5em;
     position: absolute;
     bottom: 10px;
     left: 418px;
     display: grid;
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 100px 1fr;
     grid-column-gap: 1em;
     grid-row-gap: 0.25em;
 }

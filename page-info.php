@@ -2,10 +2,10 @@
 /* Template Name: 会社案内 */
 get_header(); ?>
 
-<div class="info-back mt-5">
+<div class="container info-back mt-5">
     <div class="row">
         <div class="info-content">
-
+            
             <div class="info-logo">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/about_logo.png')); ?>" alt="">
             </div>

@@ -520,7 +520,7 @@ button, input, select, textarea {
 /* ナビメニューイメージサイズ調整 */
 .nav-wrapper a img {
 	margin-top: 8px;
-	width: 10%;
+	width: 122px;
 }
 
 /* ナビメニューリンク領域 */
@@ -799,7 +799,7 @@ button, input, select, textarea {
 }
 
 .info-content {
-    font-size: 14px;
+    font-size: 13px;
     width: 100%;
     margin: 0 auto;
 }
@@ -862,7 +862,7 @@ button, input, select, textarea {
 
 .info-camp {
     margin: 0 auto;
-    width: 396px;
+    width: 350px;
     height: 158px;
     background: #fff;
     border:3px solid #00913a;

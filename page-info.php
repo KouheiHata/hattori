@@ -2,10 +2,10 @@
 /* Template Name: 会社案内 */
 get_header(); ?>
 
-<div class="container info-back mt-5">
+<div class="container-fluid mt-5">
     <div class="row">
         <div class="info-content">
-            
+        <div class="info-back">
             <div class="info-logo">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/about_logo.png')); ?>" alt="">
             </div>
@@ -18,7 +18,8 @@ get_header(); ?>
 
             <p class="mt-5">平成２５年からは、委託販売からハウスでの対面販売を中心に切り替えました。<br>技術を磨くためにハウスの横の畑で、実際に販売している苗を育ててみて、栽培しやすい苗の育苗技術の向上に努めてきました。<br>また、大きな看板を掲げたことや、お客様による口コミＰＲもしていただいたり、ハウスに立ち寄ってくださる方々が増えてきました。</p>
             <p class="mt-3">今までの経験と技術を強みに、勉強会や直接アドバイスさせていただくことで、予約販売や対面販売により一層力を入れて<br>お客様に満足していただけるよう努め、さらに、年間を通して、家庭菜園向きの苗と栽培方法を紹介させていただき、満足できる商品を<br>提供できるよう努めて参ります。</p>
-
+        </div> <!-- info-back -->
+        <div class="info-camp-back">
             <div class="info-camp">
                 <div class="box-item box-item1 justify-t">２代目営農</div>
                 <div class="box-item box-item2">３０年</div>
@@ -32,8 +33,8 @@ get_header(); ?>
                 <div class="box-item box-item10 justify-t">販売先</div>
                 <div class="box-item box-item11">個人顧客　各直売所　菊人形（秋）</div>
             </div>
-
-        </div><!-- info-content end -->
+        </div> <!-- info-camp-back -->
+        </div> <!-- info-content end -->
     </div>
 </div>
 
